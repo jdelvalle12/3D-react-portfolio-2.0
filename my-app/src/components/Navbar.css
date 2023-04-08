@@ -1,4 +1,4 @@
-#header nav ul {
+.navbar ul {
     display: inline-block;
     padding-right: 2.0rem;
     margin: auto;
@@ -6,11 +6,13 @@
     font-size: 20px;
     line-height: 1.9;
     list-style-type: none;
+    color: whitesmoke;
    }
    
-   #header li {
+   .navbar {
      display: inline;
      padding: 1px 20px;
      text-decoration: none;
      color: whitesmoke;
+     background-color: aqua;
    }
