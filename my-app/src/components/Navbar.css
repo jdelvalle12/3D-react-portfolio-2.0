@@ -1,0 +1,16 @@
+#header nav ul {
+    display: inline-block;
+    padding-right: 2.0rem;
+    margin: auto;
+    font-family: "Orbitron","Quantico", sans-serif;
+    font-size: 20px;
+    line-height: 1.9;
+    list-style-type: none;
+   }
+   
+   #header li {
+     display: inline;
+     padding: 1px 20px;
+     text-decoration: none;
+     color: whitesmoke;
+   }

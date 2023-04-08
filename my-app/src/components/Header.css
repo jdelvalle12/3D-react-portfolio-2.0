@@ -1,0 +1,32 @@
+/*Header*/
+
+#header {
+    position: relative;
+    border-bottom: 2px solid gray;
+    z-index: 100;
+    width: 100.4%;
+    height: auto;
+    line-height: 50px;
+    }
+    
+    #header .logo {
+    padding-top: 2rem; 
+    font-size: 35px
+    }
+    
+    #header nav ul {
+     display: inline-block;
+     padding-right: 2.0rem;
+     margin: auto;
+     font-family: "Orbitron","Quantico", sans-serif;
+     font-size: 20px;
+     line-height: 1.9;
+     list-style-type: none;
+    }
+    
+    #header li {
+      display: inline;
+      padding: 1px 20px;
+      text-decoration: none;
+      color: whitesmoke;
+    }
