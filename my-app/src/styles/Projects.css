@@ -1,6 +1,6 @@
 /*Projects Section*/
 
-#main-content .projects-section {
+.projects-section {
     position: absolute;
     padding: auto;
     z-index: 100;
