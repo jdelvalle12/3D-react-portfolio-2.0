@@ -1,7 +1,8 @@
 import Flick from '../images/Flick-Tracker.jpg';
 import manifesto from '../images/manifesto.jpg';
 import SEO from '../images/SEO.jpg';
-import Journeez from '../images/Journeez.jpg'
+import Journeez from '../images/Journeez.jpg';
+import '../styles/Projects.css';
 // import as many images as you need
 
 const Projects = () => {

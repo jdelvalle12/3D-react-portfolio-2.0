@@ -11,7 +11,7 @@ html {
   height: auto;
 }
 
-#main-content {
+.main-content {
   position: relative;
   text-decoration: none;
 }
@@ -57,9 +57,33 @@ html {
   }
 }
 
+.home-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: justify;
+  margin: 0 2rem;
+}
+
 /*Header*/
 
-#header {
+.header {
   position: relative;
   border-bottom: 2px solid gray;
   z-index: 100;
@@ -68,12 +92,12 @@ html {
   line-height: 50px;
   }
   
-  #header .logo {
+  .header .logo {
   padding-top: 2rem; 
   font-size: 35px
   }
   
-  #header nav ul {
+  .header nav ul {
    display: inline-block;
    padding-right: 2.0rem;
    margin: auto;
@@ -83,14 +107,14 @@ html {
    list-style-type: none;
   }
   
-  #header li {
+  .header  {
     display: inline;
     padding: 1px 20px;
     text-decoration: none;
     color: whitesmoke;
   }
 
-  #header nav ul {
+  .navbar {
     display: inline-block;
     padding-right: 2.0rem;
     margin: auto;
@@ -98,18 +122,19 @@ html {
     font-size: 20px;
     line-height: 1.9;
     list-style-type: none;
+    color: rgb(148, 191, 228);
    }
    
-   #header li {
+   /* #header li {
      display: inline;
      padding: 1px 20px;
      text-decoration: none;
      color: whitesmoke;
-   }
+   } */
 
 /*About me*/
 
-#main-content .about-me {
+.main-content .about-me {
   font-size: 28px;
   color: whitesmoke;
   position: absolute;
@@ -125,11 +150,11 @@ html {
   text-decoration: none;
 }
 
-#main-content .about-me span {
+.main-content .about-me span {
   font-size: 18px;
 }
 
-#main-content .about-me h2 {
+.main-content .about-me h2 {
   font-size: 28px;
   text-decoration: none;
 }
@@ -137,7 +162,7 @@ html {
 /*Main*/
 
 
-#main-content {
+.main-content {
 position: absolute;
 padding: auto;
 z-index: 100;
@@ -145,7 +170,7 @@ display: block;
 font-size: 15px;
 height: auto;
 width: auto;
-background-image: url('./assets/images/Background.jpg');
+background-image: url('./images/Background.jpg');
 background-position: bottom;
 background-size: cover;
 background-repeat: no repeat;  
@@ -157,7 +182,7 @@ text-decoration: none;
   height: auto;
 }
 
-#main-content h1 {
+.main-content h1 {
 color: black;
 top: 60px;
 left: 7%;
@@ -255,7 +280,7 @@ font-size: 38px;
 
 /*Design Inquiries*/
 
-#main-content .design-inquiries form {
+.main-content .design-inquiries form {
   position: absolute;
   margin: 0 auto;
   width: 22rem;
@@ -267,18 +292,18 @@ font-size: 38px;
   border-radius: 5px;
   }
 
-#main-content .design-inquiries h3 {
+.main-content .design-inquiries h3 {
   font-size: 30px;
   bottom: 530px;
   color: whitesmoke;
 }
 
-#main-content .design-inquires label {
+.main-content .design-inquires label {
   display: inline-block;
   width: 120px;
 }
    
-#main-content .design-inquiries input, textarea {
+.main-content .design-inquiries input, textarea {
   box-sizing: border-box;
   width: 410px;
   line-height: 1rem;
@@ -287,12 +312,12 @@ font-size: 38px;
   border-radius: 15px;
 }
  
-#main-content .design-inquiries .textarea {
+.main-content .design-inquiries .textarea {
   vertical-align: top;
   height: 40px;
 }
     
-#main-content .design-inquiries button {
+.main-content .design-inquiries button {
   height: 35px;
   width: 100px;
   background-color: whitesmoke;
@@ -302,12 +327,12 @@ font-size: 38px;
 }
 
 
-#main-content .design-inquiries .text-center {
+.main-content .design-inquiries .text-center {
   text-align: center;
   font-size: 22px;
 }
      
-#main-content .design-inquiries .text-right {
+.main-content .design-inquiries .text-right {
   text-align: right;
   font-size: 24px;
 }
@@ -315,7 +340,7 @@ font-size: 38px;
 
 
 
-#main-content .design-inquiries li {
+.main-content .design-inquiries li {
  display: block;
  padding: 0px 20px;
  line-height: 2rem;
@@ -326,20 +351,20 @@ font-size: 38px;
 
 /*Contacts*/
 
-#contact {
+.contact {
   margin-bottom: 0;
   padding: 20px 10px 40px 10px;
   background: none;
   font-size: 20px;
   }
   
-  #contact h2 {
+  .contact h2 {
     font-size: 32px;
   }
 
 /*Footer*/
 
-footer {
+.footer {
   height: 60px;
   width: 100%;
   line-height: 60px;

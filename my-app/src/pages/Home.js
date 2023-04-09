@@ -1,9 +1,10 @@
 import React from 'react';
 import backgroundImage from '../images/Background.jpg';
+import '../styles/Home.css';
 
 export default function Home() {
   return (
-    <div style={{ backgroundImage: `url(${backgroundImage})`}}>
+    <div className="home-container" style={{ backgroundImage: `url(${backgroundImage})`}}>
         
       <h1>Home Page</h1>
       <p>

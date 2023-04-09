@@ -1,5 +1,6 @@
 import React from 'react';
 import Me from '../images/Me.jpg';
+import '../styles/About.css';
 
 export default function About() {
   return (
