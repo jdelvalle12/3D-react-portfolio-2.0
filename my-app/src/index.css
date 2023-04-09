@@ -1,4 +1,4 @@
-Universal Selector
+/* Universal Selector */
 html {
   position: relative;
   font-family: "Orbitron","Quantico", sans-serif;
@@ -23,7 +23,7 @@ html {
 
  /* Media Query for Mobile Devices */
  @media only screen and (max-width: 480px) and (orientation: landscape) {
-  .main-content {
+  #main-content {
       width: auto;
       height: auto;
       font-size: 30px;
@@ -32,7 +32,7 @@ html {
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-  .main-content {
+  #main-content {
       width: auto;
       height: auto;
       font-size: 30px
@@ -41,7 +41,7 @@ html {
 
 /* Media Query for Tablets Ipads portrait mode */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .main-content {
+  #main-content {
       width: auto;
       height: auto;
       font-size: 80px;
@@ -50,11 +50,35 @@ html {
 
 /* Media Query for Laptops and Desktops */
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
-  .main-content {
+  #main-content {
       width: auto;
       height: auto;
       font-size: 80px;
   }
+}
+
+.home-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: justify;
+  margin: 0 2rem;
 }
 
 /*Header*/

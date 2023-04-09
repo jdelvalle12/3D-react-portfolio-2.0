@@ -1,15 +1,16 @@
 /*Header*/
 
-#header {
+.header-container {
     position: relative;
     border-bottom: 2px solid gray;
     z-index: 100;
     width: 100.4%;
     height: auto;
     line-height: 50px;
+    color: whitesmoke;
     }
     
-    #header .logo {
+    .header .logo {
     padding-top: 2rem; 
     font-size: 35px
     }
