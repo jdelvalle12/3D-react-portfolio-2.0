@@ -17,19 +17,4 @@
     color: white;
     }
     
-    header nav ul {
-     
-     padding-right: 2.0rem;
-     margin: auto;
-     font-family: "Orbitron","Quantico", sans-serif;
-     font-size: 20px;
-     line-height: 1.9;
-     list-style-type: none;
-    }
-    
-    .about-me {
-      display: inline-block;
-      
-      text-decoration: none;
-      color: whitesmoke;
-    }
+   

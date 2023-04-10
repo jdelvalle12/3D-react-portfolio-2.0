@@ -11,11 +11,11 @@ const Header = () => {
         <div className="logo">Del Valle Digital Designs</div>   
       </Link>
       <nav className="navi">
-        <ul>
+       
           <a className='about-me'  href="/about me">About Me</a> 
           <a className='projects' href="/projects">Projects</a>
           <a className='contact' href="/contact">Contact</a>
-        </ul>
+        
       </nav>
     </div>
   </header>

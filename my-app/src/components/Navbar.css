@@ -1,4 +1,4 @@
-.navbar ul {
+.navbar  {
     display: inline-block;
     padding-right: 2.0rem;
     margin: auto;
@@ -15,4 +15,25 @@
      text-decoration: none;
      color: whitesmoke;
      
+   }
+
+   .about-me {
+     
+    padding-right: 2.0rem;
+    margin: auto;
+    font-family: "Orbitron","Quantico", sans-serif;
+    font-size: 20px;
+    line-height: 1.9;
+    list-style-type: none;
+   }
+   
+   .projects {
+     display: inline-flex;
+     top: 10rem;
+     text-decoration: none;
+     color: whitesmoke;
+   }
+
+   .contacts {
+     color: white;
    }
