@@ -1,6 +1,6 @@
 /*Footer*/
 
-footer {
+.footer-container{
     height: 60px;
     width: 100%;
     line-height: 60px;
@@ -10,5 +10,9 @@ footer {
     border-top: 2px solid gray;
     border-bottom: 5px solid #6b6b6b;
     color: #FDF8F5;    
-    text-align: justify;
+    text-align: center;
   }
+
+.copyright{
+  text-align: center;
+}

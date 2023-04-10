@@ -33,14 +33,23 @@
    } */
    
    .projects {
-     display: inline-flex;
-     top: 10rem;
-     text-decoration: none;
-     color: whitesmoke;
+    color:rgb(104, 106, 138);
+    padding-right: 2.0rem;
+    margin: auto;
+    font-family: "Orbitron","Quantico", sans-serif;
+    font-size: 30px;
+    line-height: 1.9;
+    list-style-type: none;
    }
 
-   .contacts {
-     color: white;
+   .contact {
+    color:rgb(104, 106, 138);
+    padding-right: 2.0rem;
+    margin: auto;
+    font-family: "Orbitron","Quantico", sans-serif;
+    font-size: 30px;
+    line-height: 1.9;
+    list-style-type: none;
    }
 
   .about-me {
@@ -55,4 +64,14 @@
   
   .about-me :hover {
     color: aquamarine;
+  }
+
+  .resume {
+    color:rgb(104, 106, 138);
+    padding-right: 2.0rem;
+    margin: auto;
+    font-family: "Orbitron","Quantico", sans-serif;
+    font-size: 30px;
+    line-height: 1.9;
+    list-style-type: none;
   }
