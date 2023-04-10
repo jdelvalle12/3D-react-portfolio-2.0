@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../components/Header.css';
+import '../App.css';
 
 const Header = () => {
   return (
@@ -8,16 +10,16 @@ const Header = () => {
     <Link className="text-light" to="/">
         <div className="logo">Del Valle Digital Designs</div>   
       </Link>
-      <nav class="text-right">
+      <nav className="navi">
         <ul>
-          <li><a href="/about me">About Me</a></li> 
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <a className='about-me'  href="/about me">About Me</a> 
+          <a className='projects' href="/projects">Projects</a>
+          <a className='contact' href="/contact">Contact</a>
         </ul>
       </nav>
     </div>
   </header>
   );
-};
+}
 
 export default Header;

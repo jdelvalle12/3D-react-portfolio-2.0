@@ -9,12 +9,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    padding-bottom: 18rem; /* adjust the value to your desired amount */
   }
   
   h1 {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 2rem;
+    color: black;
   }
   
   p {
@@ -22,5 +24,8 @@
     line-height: 2rem;
     text-align: justify;
     margin: 0 2rem;
-    color: white;
+    color: black;
+  }
+
+  .image-container {
   }

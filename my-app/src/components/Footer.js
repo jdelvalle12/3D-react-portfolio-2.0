@@ -16,7 +16,7 @@ const Footer = () => {
           </button>
         )}
         <h4>
-          Made with{' '}
+          Made {' '}
           <span
             className="emoji"
             role="img"
@@ -25,7 +25,7 @@ const Footer = () => {
           >
             
           </span>{' '}
-          by Del Valle Digital Designs.
+          by © 2022 Del Valle Digital Designs
         </h4>
       </div>
     </footer>

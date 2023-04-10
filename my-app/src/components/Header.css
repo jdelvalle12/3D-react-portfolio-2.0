@@ -2,7 +2,7 @@
 
 .header-container {
     position: relative;
-    border-bottom: 2px solid gray;
+   
     z-index: 100;
     width: 100.4%;
     height: auto;
@@ -10,13 +10,15 @@
     color: whitesmoke;
     }
     
-    .header .logo {
+    .logo {
     padding-top: 2rem; 
-    font-size: 35px
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
     }
     
-    #header nav ul {
-     display: inline-block;
+    header nav ul {
+     
      padding-right: 2.0rem;
      margin: auto;
      font-family: "Orbitron","Quantico", sans-serif;
@@ -25,9 +27,9 @@
      list-style-type: none;
     }
     
-    #header li {
-      display: inline;
-      padding: 1px 20px;
+    .about-me {
+      display: inline-block;
+      
       text-decoration: none;
       color: whitesmoke;
     }

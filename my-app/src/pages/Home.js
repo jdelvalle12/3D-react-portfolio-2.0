@@ -3,17 +3,17 @@ import backgroundImage from '../images/Background.jpg';
 import '../styles/Home.css';
 import '../App.css';
 
-export default function Home() {
+ export default function Home() {
+ 
   return (
     <section className="home-container" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className='home-content'>    
-      <h1>Home Page</h1>
+      <h1>Welcome...</h1>
       <p>
-            My name is Jose, I am a full stack developer based in Orlando. I
-            love all things technology, and I especially love working on programming. I like
-            listen to 80s & 90s music, gaming and travel around the world. 
+      “Design is not just what it looks like and feels like. Design is how it works.” –Steve Jobs
       </p>
     </div>
   </section>
   );
-};
+}
+
