@@ -1,6 +1,6 @@
 /*About me*/
 
-.about-me {
+/* .about-me {
     font-size: 28px;
     color: whitesmoke;
     position: absolute;
@@ -14,13 +14,28 @@
     border-radius: 8px;    
     box-sizing: border-box;
     text-decoration: none;
+  } */
+
+  .about-me-container {
+    background-image: url('../images/Background.jpg');
+    background-size: cover;
+    padding-bottom: 50px;
   }
   
-  .about-me span {
+  .description {
     font-size: 18px;
+    color: aquamarine;
+    margin-bottom: 20px;
   }
   
-  .about-me h2 {
+  .about-me h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: aquamarine;
+  }
+  
+  /* .about-me h2 {
     font-size: 28px;
     text-decoration: none;
-  }
+  } */

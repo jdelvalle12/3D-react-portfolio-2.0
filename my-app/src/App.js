@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
+import './index.css';
 import './App.css';
 
 export default function App() {

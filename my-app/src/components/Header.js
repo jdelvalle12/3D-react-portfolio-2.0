@@ -15,7 +15,7 @@ const Header = () => {
           <a className='about-me'  href="/about me">About Me</a> 
           <a className='projects' href="/projects">Projects</a>
           <a className='contact' href="/contact">Contact</a>
-        
+          <a className='resume' href="/resume">Resume</a>
       </nav>
     </div>
   </header>

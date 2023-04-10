@@ -21,14 +21,14 @@
       font-size: 35px;
     }
     
-    .projects {
+    /* .projects {
       position: absolute;
       display: block;
       width: 8rem;
       height: 1rem;
       left: 1%;
       bottom: 170px; 
-    }
+    } */
     
     .projects .horiseon .seo{ 
       position: absolute;

@@ -1,23 +1,28 @@
 .navbar  {
-    display: inline-block;
-    padding-right: 2.0rem;
-    margin: auto;
-    font-family: "Orbitron","Quantico", sans-serif;
-    font-size: 20px;
-    line-height: 1.9;
-    list-style-type: none;
-    color: whitesmoke;
-   }
+  position: relative;
+  text-align: center;
+  z-index: 100;
+  width: 100.4%;
+  height: auto;
+  display: inline-block;
+  padding-right: 2.0rem;
+  margin: auto;
+  font-family: "Orbitron","Quantico", sans-serif;
+  font-size: 20px;
+  line-height: 1.9;
+  list-style-type: none;
+  color: whitesmoke;
+  }
    
-   .navbar {
+   /* .navbar {
      display: inline;
      padding: 1px 20px;
      text-decoration: none;
      color: whitesmoke;
      
-   }
+   } */
 
-   .about-me {
+   /* .about-me {
      
     padding-right: 2.0rem;
     margin: auto;
@@ -25,7 +30,7 @@
     font-size: 20px;
     line-height: 1.9;
     list-style-type: none;
-   }
+   } */
    
    .projects {
      display: inline-flex;
@@ -37,3 +42,17 @@
    .contacts {
      color: white;
    }
+
+  .about-me {
+    color:rgb(104, 106, 138);
+    padding-right: 2.0rem;
+    margin: auto;
+    font-family: "Orbitron","Quantico", sans-serif;
+    font-size: 30px;
+    line-height: 1.9;
+    list-style-type: none;
+    }
+  
+  .about-me :hover {
+    color: aquamarine;
+  }
