@@ -1,4 +1,4 @@
-html {
+ html {
   position: relative;
   font-family: "Orbitron","Quantico", sans-serif;
   font-size: 30px;
@@ -109,7 +109,7 @@ p {
 
   .logo {
       padding-top: 2rem; 
-      font-size: 40px;
+      font-size: 1.5rem;
       text-decoration: none;
       color: white;
       animation: glitch 3s infinite;
@@ -347,4 +347,4 @@ p {
 }
 }
 
-
+ 

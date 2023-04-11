@@ -1,5 +1,5 @@
 import React from 'react';
-import Virtual from '../images/virtual-city.mp4';
+import Rotating from '../images/rotating-planet.mp4';
 import '../styles/Home.css';
 import '../App.css';
 
@@ -7,7 +7,7 @@ import '../App.css';
  
   return (
     <section className="home-container">
-      <video src={Virtual} autoPlay loop muted className="background-video"></video>
+      <video src={Rotating} autoPlay loop muted className="background-video"></video>
       <div className='home-content'>    
       <h1>Welcome...</h1>
       <p>

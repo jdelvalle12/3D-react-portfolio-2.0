@@ -27,11 +27,23 @@
   font-size: 1rem;
   color: black;
   margin-bottom: 20px;
+  max-width: 40%;
+  margin-left: 5rem;
 }
 
 .aboutme {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 2rem;
-  color: black
+  color: black;
+  margin-left: 7rem;
+}
+
+.profile-picture {
+  max-width: 15%;
+  height: auto;
+  border-radius: 2%;
+  margin-left: 10rem;
+  margin-top: 3rem;
+  /* Add any other styling for the profile picture here */
 }

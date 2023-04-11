@@ -16,9 +16,9 @@
         
     .logo {
         padding-top: 2rem; 
-        font-size: 40px;
+        font-size: 1.5rem;
         text-decoration: none;
-        color: white;
+        color: whitesmoke;
         animation: glitch 3s infinite;
         position: relative;
         z-index: 1;

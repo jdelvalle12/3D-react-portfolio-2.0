@@ -1,80 +1,82 @@
 /*Projects Section*/
+.projects-container {
+  position: absolute;
+  padding: auto;
+  z-index: 100;
+  display: block;
+  font-size: 24px;
+  top: 605px;
+  color:#000000;
+  height: auto;
+  width: auto;
+  text-decoration: none;
+}
 
-.projects-section {
-    position: absolute;
-    padding: auto;
-    z-index: 100;
-    display: block;
-    font-size: 24px;
-    top: 605px;
-    color:#000000;
-    height: auto;
-    width: auto;
-    text-decoration: none;
-    }
-    
-    .projects-section span {
-    font-size: 28px;
-    }
-    
-    .projects-section h2 {
-      font-size: 35px;
-    }
-    
-    /* .projects {
-      position: absolute;
-      display: block;
-      width: 8rem;
-      height: 1rem;
-      left: 1%;
-      bottom: 170px; 
-    } */
-    
-    .projects .horiseon .seo{ 
-      position: absolute;
-      width: 22rem;
-      height: 18rem;
-      left: 1%;
-      bottom: 20px;
-    }
-    
-    
-    .projects .manifesto .gambling{
-      position: absolute;
-      width: 14rem;
-      height: 14rem;
-      left: 38em;
-      bottom: 10px;
-    }
-    
-    .projects .wine {
-      position: absolute;
-      width: 14rem;
-      height: 14rem;
-      left: 65em;
-      bottom: 10px;
-    }
-    
-    .projects .horiseon h5 {
-      position: absolute;
-      font-size: 28px;
-      bottom: 210px;
-      left: 14%;
-      color:#000000;
-    }
-    
-    .projects .manifesto h5 {
-      position: absolute;
-      font-size: 25px;
-      bottom: 190px;
-      left: 20em;
-      color:greenyellow;
-    }
-    
-    .projects .winery h5 {
-      position: absolute;
-      font-size: 24px;
-      bottom: 170px;
-      left: 45em;
-      color:whitesmoke;
-    }
+.projects-section span {
+  font-size: 28px;
+  position: relative;
+}
+
+.h2 {
+  font-size: 35px;
+}
+
+.project-container {
+  position: relative;
+  z-index: 1; /* set z-index to make project cards appear above the video */
+}
+
+.project-card {
+  position: relative; /* set position to relative for proper positioning */
+}
+
+.projects .horiseon .seo{ 
+  position: absolute;
+  width: 22rem;
+  height: 18rem;
+  left: 1%;
+  bottom: 20px;
+  z-index: 2; /* set z-index to make project card appear above the video */
+}
+
+.projects .manifesto .gambling{
+  position: absolute;
+  width: 14rem;
+  height: 14rem;
+  left: 38em;
+  bottom: 10px;
+  z-index: 2; /* set z-index to make project card appear above the video */
+}
+
+.projects .journeez {
+  position: absolute;
+  width: 14rem;
+  height: 14rem;
+  left: 65em;
+  bottom: 10px;
+  z-index: 2; /* set z-index to make project card appear above the video */
+}
+
+.projects .horiseon h5 {
+  position: absolute;
+  font-size: 28px;
+  bottom: 210px;
+  left: 14%;
+  color:#000000;
+}
+
+.projects .manifesto h5 {
+  position: absolute;
+  font-size: 25px;
+  bottom: 190px;
+  left: 20em;
+  color:greenyellow;
+}
+
+.projects .journeez h5 {
+  position: absolute;
+  font-size: 24px;
+  bottom: 170px;
+  left: 45em;
+  color:whitesmoke;
+}
