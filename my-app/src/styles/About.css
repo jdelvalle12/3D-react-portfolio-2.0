@@ -24,14 +24,14 @@
 } */
 
 .description {
-  font-size: 18px;
-  color: aquamarine;
+  font-size: 1rem;
+  color: black;
   margin-bottom: 20px;
 }
 
 .aboutme {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 2rem;
-  color: aquamarine;
+  color: black
 }
