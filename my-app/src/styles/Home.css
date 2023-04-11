@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-size: 110% 100%;
+    background-size: 100% 120%;
     background-repeat: no-repeat;
     color: white;
     padding-bottom: 10rem; /* adjust the value to your desired amount */
@@ -22,21 +22,22 @@
     object-fit: fill;
     margin-right: 1rem;
   }
-  
-  h1 {
+
+  .home-content{
     position: relative;
     font-size: 3rem;
     font-weight: bold;
-    margin-right: 2rem;
+    margin-right: 26rem;
     color: white;
+    
   }
   
-  p {
+  .home-content p {
     position: relative;
     font-size: 1.5rem;
     line-height: 2rem;
     text-align: justify;
-    margin-right: 2rem;
+    /* margin-right: 1rem; */
     color: whitesmoke;
     padding-bottom: 10rem;
   }

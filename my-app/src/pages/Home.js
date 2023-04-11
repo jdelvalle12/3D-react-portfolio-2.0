@@ -9,10 +9,10 @@ import '../styles/Home.css';
     <section className="home-container">
       <video src={Rotating} autoPlay loop muted className="background-video"></video>
       <div className='home-content'>    
-      <h1>Welcome...</h1>
-      <p>
-      “Design is not just what it looks like and feels like. Design is how it works.” –Steve Jobs
-      </p>
+      <h1>Welcome...Feel free to take a look</h1>
+        <p>
+          “Design is not just what it looks like and feels like. Design is how it works.” –Steve Jobs
+        </p>
     </div>
   </section>
   );
