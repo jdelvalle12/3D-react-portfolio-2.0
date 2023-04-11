@@ -14,7 +14,7 @@ const Header = () => {
       </Link>
       <nav className="navi">
        
-          <a className='about-me'  href="/about me">About Me</a> 
+          <a className='about-me'  href="/about">About</a> 
           <a className='projects' href="/projects">Projects</a>
           <a className='contact' href="/contact">Contact</a>
           <a className='resume' href="/resume">Resume</a>

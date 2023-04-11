@@ -11,7 +11,34 @@ html {
   color: white;
 }
 
-.home-container {
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: justify;
+  margin: 0 2rem;
+  color: whitesmoke;
+}
+
+
+/*About me*/
+
+.aboutme-container {
   background-image: url('./images/Background.jpg');
   width: 100%;
   height: 100%;
@@ -21,28 +48,8 @@ html {
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 2rem;
-}
-
-.p {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  text-align: justify;
-  margin: 0 2rem;
   color: white;
-}
-
-/*About me*/
-
-.aboutme-container {
-  position: relative;
-  padding-bottom: 50px;
-  color: cyan;
+  padding-bottom: 18rem; /* adjust the value to your desired amount */
 }
 
 .background-video {
@@ -51,7 +58,8 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  padding-bottom: 18rem;
+  /* object-fit: cover; */
 }
 
 .description {
@@ -82,7 +90,7 @@ html {
       color: aquamarine;
       }
       
-  .about-me {
+  .aboutme {
       color:whitesmoke;
       padding-right: 2.0rem;
       margin: auto;

@@ -1,13 +1,13 @@
 import React from 'react';
 import Me from '../images/Me.jpg';
-import Virtual from '../images/virtual-city.mp4';
+import backgroundImage from '../images/Background.jpg';
 import '../styles/About.css';
 // import '../App.css';
 
 export default function About() {
   return (
-    <section className="aboutme-container">
-      <video src={Virtual} autoPlay loop muted className="background-video"></video>
+    <section className="aboutme-container" style={{ backgroundImage: `url(${backgroundImage})` }}>
+      
       <div src={Me} alt="My picture" className="my-picture" >
         <h1 className="aboutme">Hello my name is Jose</h1>
         <div />

@@ -17,7 +17,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li className="about-me">
+      <li className="aboutme">
         <a
           href="/about"
           onClick={() => handlePageChange('About')}

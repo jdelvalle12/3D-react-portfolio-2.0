@@ -1,12 +1,13 @@
 import React from 'react';
-import backgroundImage from '../images/Background.jpg';
+import Virtual from '../images/virtual-city.mp4';
 import '../styles/Home.css';
 import '../App.css';
 
  export default function Home() {
  
   return (
-    <section className="home-container" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <section className="home-container">
+      <video src={Virtual} autoPlay loop muted className="background-video"></video>
       <div className='home-content'>    
       <h1>Welcome...</h1>
       <p>

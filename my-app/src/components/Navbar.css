@@ -40,7 +40,7 @@
    }
 
    .contact:hover {
-    color: magenta;
+    color: cyan;
   }
 
   .about-me {
@@ -54,7 +54,7 @@
     }
   
   .about-me:hover {
-    color: cyan;
+    color: magenta;
   }
 
   .resume {
