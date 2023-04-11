@@ -43,7 +43,7 @@
       
       .logo::before,
       .logo::after {
-        content: attr(title);
+        /* content: attr(title); */
         position: absolute;
         top: 0;
         left: 0;
