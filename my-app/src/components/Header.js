@@ -8,9 +8,11 @@ const Header = () => {
     <header className="bg-primary text-light mb-4 py-3 flex-row align-center">
     <div className="header-container flex-row justify-space-between-lg justify-center align-center">
       <Link className="text-light" to="/">
-        <div className="logo">
-          Del Valle Digital Designs {/* Your logo text */}
-        </div>
+      <div className="logo relative">
+         Del Valle Digital Designs {/* Your logo text */}
+         <span className="absolute top-0 left-0 w-full h-full bg-cyan z-0 animate-glitch-1"></span>
+          <span className="absolute top-0 left-0 w-full h-full bg-magenta z-0 animate-glitch-2"></span>
+      </div>
       </Link>
       <nav className="navi">
        

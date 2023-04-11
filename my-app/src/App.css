@@ -120,37 +120,33 @@
       bottom: 170px; 
       }
 
-  .logo {
-      padding-top: 2rem; 
-      font-size: 1.5rem;
-      text-decoration: none;
-      color: white;
-      animation: glitch 3s infinite;
-      position: relative;
-      z-index: 1;
-    }
-    
-    .logo::before,
-    .logo::after {
-      /* content: attr(title); */
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    
-    .logo::before {
-      color: cyan;
-      z-index: -2;
-      animation: glitch-anim-1 2.5s infinite;
-    }
-    
-    .logo::after {
-      color: magenta;
-      z-index: -1;
-      animation: glitch-anim-2 2.5s infinite;
-    }
+      .logo {
+        position: relative;
+        color: whitesmoke;
+        font-size: 2rem;
+        text-decoration: none;
+      }
+      
+      .logo::before,
+      .logo::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      
+      .logo::before {
+        /* background-color: #0BC5EA; Replace with desired color */
+        animation: glitch-1 2s infinite;
+      }
+      
+      .logo::after {
+        
+        animation: glitch-2 3s infinite;
+      }
     
      @keyframes glitch-anim-1 {
       0% {
