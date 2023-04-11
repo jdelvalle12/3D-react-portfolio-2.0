@@ -1,15 +1,36 @@
-/*Footer*/
+/* Footer.css */
+.footer-container {
+  height: 60px; /* Adjust the height as needed */
+  width: 100%;
+  line-height: 60px;
+  background-color: black;
+  position: absolute;
+  margin-top: 5;
+  margin-bottom: 0;
+  border-top: 2px solid gray;
+  /* border-bottom: 5px solid #6b6b6b; */
+  color: #FDF8F5;
+  text-align: center;
+  padding-left: 1rem; /* Add padding on the left */
+  padding-right: 1rem; /* Add padding on the right */
+}
 
-.footer-container{
-    height: 60px;
-    width: 100%;
-    line-height: 60px;
-    background-color: black;
-    position: absolute;
-    /* margin-top: 5; */
-    border-top: 2px solid gray;
-    /* border-bottom: 5px solid #6b6b6b; */
-    color: #FDF8F5;    
-    text-align: center;
-  }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; /* Add margin as needed */
+}
 
+.icon {
+  margin-right: 1rem; /* Adjust margin between the icons as needed */
+  font-size: 2rem;
+}
+
+.icon-spacing {
+  width: 10px; /* Add spacing between the icons as needed */
+}
+
+.contact-info {
+  bottom: 12rem;
+}
