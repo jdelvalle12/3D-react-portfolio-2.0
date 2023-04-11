@@ -1,15 +1,16 @@
 import React from 'react';
 import Me from '../images/Me.jpg';
-import backgroundImage from '../images/Background.jpg';
+import Virtual from '../images/virtual-city.mp4';
 import '../styles/About.css';
-import '../App.css';
+// import '../App.css';
 
 export default function About() {
   return (
-    <section className="about-me-container" style={{ backgroundImage: `url(${backgroundImage})` }}>
-      <div>
-        <h1 className="about-me h1">Hello my name is Jose</h1>
-        <div src={Me} alt="My picture" className="my-picture" />
+    <section className="aboutme-container">
+      <video src={Virtual} autoPlay loop muted className="background-video"></video>
+      <div src={Me} alt="My picture" className="my-picture" >
+        <h1 className="aboutme">Hello my name is Jose</h1>
+        <div />
         <div className='description'>
           I am a full stack developer based in Orlando with experience in 
           HTML5, CSS, Bootstrap, JavaScript, jQuery, and using Web, Third party & server-side APIs & 

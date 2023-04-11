@@ -1,4 +1,4 @@
-.navbar  {
+/* .navbar  {
   position: relative;
   text-align: center;
   z-index: 100;
@@ -12,28 +12,11 @@
   line-height: 1.9;
   list-style-type: none;
   color: whitesmoke;
-  }
+  } */
    
-   /* .navbar {
-     display: inline;
-     padding: 1px 20px;
-     text-decoration: none;
-     color: whitesmoke;
-     
-   } */
-
-   /* .about-me {
-     
-    padding-right: 2.0rem;
-    margin: auto;
-    font-family: "Orbitron","Quantico", sans-serif;
-    font-size: 20px;
-    line-height: 1.9;
-    list-style-type: none;
-   } */
-   
+  
    .projects {
-    color:rgb(104, 106, 138);
+    color:whitesmoke;
     padding-right: 2.0rem;
     margin: auto;
     font-family: "Orbitron","Quantico", sans-serif;
@@ -41,9 +24,13 @@
     line-height: 1.9;
     list-style-type: none;
    }
+
+   .projects:hover {
+    color: rgb(241, 117, 95);
+  }
 
    .contact {
-    color:rgb(104, 106, 138);
+    color:whitesmoke;
     padding-right: 2.0rem;
     margin: auto;
     font-family: "Orbitron","Quantico", sans-serif;
@@ -52,8 +39,12 @@
     list-style-type: none;
    }
 
+   .contact:hover {
+    color: magenta;
+  }
+
   .about-me {
-    color:rgb(104, 106, 138);
+    color:whitesmoke;
     padding-right: 2.0rem;
     margin: auto;
     font-family: "Orbitron","Quantico", sans-serif;
@@ -62,16 +53,20 @@
     list-style-type: none;
     }
   
-  .about-me :hover {
-    color: aquamarine;
+  .about-me:hover {
+    color: cyan;
   }
 
   .resume {
-    color:rgb(104, 106, 138);
+    color:whitesmoke;
     padding-right: 2.0rem;
     margin: auto;
     font-family: "Orbitron","Quantico", sans-serif;
     font-size: 30px;
     line-height: 1.9;
     list-style-type: none;
+  }
+
+  .resume:hover {
+    color: rgb(235, 238, 75);
   }

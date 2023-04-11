@@ -10,9 +10,9 @@ import Resume from './pages/Resume';
 import './index.css';
 import './App.css';
 
-export default function App() {
-  return (
-    <Router>
+function App() {
+return (
+  <Router>
       <div>
         <Header>
           <Navbar />
@@ -29,3 +29,4 @@ export default function App() {
   );
 }
 
+export default App;

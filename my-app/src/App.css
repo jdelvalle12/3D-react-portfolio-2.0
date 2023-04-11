@@ -37,10 +37,21 @@ html {
   color: white;
 }
 
-.about-me-container {
-  background-image: url('./images/Background.jpg');
-  background-size: cover;
+/*About me*/
+
+.aboutme-container {
+  position: relative;
   padding-bottom: 50px;
+  color: cyan;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .description {
@@ -49,13 +60,12 @@ html {
   margin-bottom: 20px;
 }
 
-.about-me h1 {
+.aboutme {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 2rem;
   color: aquamarine;
 }
-
 /*Header*/
 
 .header-container {
@@ -73,7 +83,7 @@ html {
       }
       
   .about-me {
-      color:rgb(40, 49, 170);
+      color:whitesmoke;
       padding-right: 2.0rem;
       margin: auto;
       font-family: "Orbitron","Quantico", sans-serif;
@@ -94,14 +104,14 @@ html {
       font-size: 40px;
       text-decoration: none;
       color: white;
-      animation: matrix 3s infinite;
+      animation: glitch 3s infinite;
       position: relative;
       z-index: 1;
     }
     
     .logo::before,
     .logo::after {
-      content: attr(title);
+      /* content: attr(title); */
       position: absolute;
       top: 0;
       left: 0;

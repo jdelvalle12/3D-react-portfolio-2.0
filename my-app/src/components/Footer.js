@@ -1,20 +1,14 @@
 import React from 'react';
-import './Navbar.css';
+import './Footer.css';
 
 
 const Footer = () => {
   
   return (
-    <footer className="footer-container">
-      <div className="container text-center mb-5">
-        
-          
-            
-         
+    <footer className="footer-container"> 
         <div className='copyright'>
-          Made by © 2022 Del Valle Digital Designs
+          Made by © 2023 Del Valle Digital Designs
         </div>
-      </div>
     </footer>
   );
 };
