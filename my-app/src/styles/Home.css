@@ -45,6 +45,7 @@
 
   body {
     overflow-x: hidden;
+    overflow-y: auto;
   }
   
   /* Example: Prevent horizontal scrolling on a specific container element */

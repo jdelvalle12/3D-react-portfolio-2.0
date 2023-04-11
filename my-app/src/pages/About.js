@@ -9,10 +9,10 @@ export default function About() {
     <section className="aboutme-container" style={{ backgroundImage: `url(${backgroundImage})` }}>
      <div> 
       <img src={Me} alt="Jose" className="profile-picture" />
-        <h2 className="aboutme">Hello my name is Jose</h2>
+        <h2 className="aboutme">Hello my name is Jose...</h2>
         <div />
         <div className='description'>
-          I am a full stack developer based in Orlando with experience in HTML5, CSS, variety of CSS frameworks,
+          ...I am a full stack developer based in Orlando with experience in HTML5, CSS, variety of CSS frameworks,
           JavaScript, jQuery, and used Web, Third party & Server-side APIs on the front end 
           development. In addition, on the back end development, I have experience in MySQL, Node.js, 
           Express.js, REACT, GraphQL & MongoDB. I have an appetite for continuous learning, collaboration, 
