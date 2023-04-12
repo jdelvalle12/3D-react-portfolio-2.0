@@ -6,6 +6,7 @@ import Journeez from '../images/Journeez.jpg';
 import Weather from '../images/weather-forecast.jpg';
 import Planner from '../images/day-planner.jpg';
 import Notepad from '../images/notepad.jpg';
+import Winery from '../images/Winery.jpg';
 import Fireworks from '../images/digital-fireworks.mp4';
 import '../styles/Projects.css';
 
@@ -20,13 +21,13 @@ const Projects = () => {
           <div className="project-card">
             <img src={Flick} alt="Flick-Tracker" />
               <div className="project-card-overlay">
-                <h3><a href="https://flick-tracker.herokuapp.com/">Flick-Tracker</a></h3>
+                <h3><a href="https://flick-tracker.herokuapp.com/">Flick Tracker</a></h3>
               </div>                
               </div>
               <div className="project-card">
                 <img src={manifesto} alt="manifesto" />
                   <div className="project-card-overlay">
-                  <h3><a href="https://stickkman.github.io/gamblingManifesto-Proj01/">Manifesto</a></h3>
+                  <h3><a href="https://stickkman.github.io/gamblingManifesto-Proj01/">Gambling Manifesto</a></h3>
               </div>                
               </div>
               <div className="project-card">
@@ -38,7 +39,7 @@ const Projects = () => {
               <div className="project-card">
                 <img src={Journeez} alt="Journeez" />
               <div className="project-card-overlay">
-                  <h3><a href="https://example.com/journeez">Journeez</a></h3>
+                  <h3><a href="https://example.com/journeez">journe<span className='EZ'>EZ</span></a></h3>
               </div>
               </div>
               <div className="project-card">
@@ -57,6 +58,12 @@ const Projects = () => {
                 <img src={Notepad} alt="Notepad" />
               <div className="project-card-overlay">
                   <h3><a href="https://notetaken.herokuapp.com/">Notepad</a></h3>
+              </div>
+              </div>
+              <div className="project-card">
+                <img src={Winery} alt="Winery" />
+              <div className="project-card-overlay">
+                  <h3><a href="https://jdelvalle12.github.io/thevalleywinery/">The Valley Winery</a></h3>
               </div>
               </div>
             </div>

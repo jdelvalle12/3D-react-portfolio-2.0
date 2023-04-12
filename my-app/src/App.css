@@ -11,6 +11,42 @@
   color: white;
 }
 
+ /* Media Query for Mobile Devices */
+ @media only screen and (max-width: 480px) and (orientation: landscape) {
+  #main-content {
+      width: auto;
+      height: auto;
+      font-size: 30px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  #main-content {
+      width: auto;
+      height: auto;
+      font-size: 30px
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #main-content {
+      width: auto;
+      height: auto;
+      font-size: 80px;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  #main-content {
+      width: auto;
+      height: auto;
+      font-size: 80px;
+  }
+}
+
 /*Home*/
 .home-container {
     
