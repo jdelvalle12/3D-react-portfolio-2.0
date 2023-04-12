@@ -1,4 +1,5 @@
 /*Projects Section*/
+
 .projects-container {
   position: relative;
   padding-bottom: 14rem;
@@ -18,8 +19,12 @@
 }
 
 .title {
-  font-size: 2.5rem;
-  text-align: center;
+  font-size: 2rem;
+  margin-left: 18rem;
+}
+
+.title:hover {
+  color: rgb(241, 117, 95);
 }
 
 .project-card {
@@ -60,7 +65,7 @@
 
 .project-card-overlay h3 {
   color: #fff; /* set desired link text color */
-  font-size: 18px; /* set desired link text size */
+  font-size: 1rem; /* set desired link text size */
   text-align: center;
 }
 
@@ -73,60 +78,4 @@
   text-decoration: underline; /* add underline effect on hover */
 }
 
-/* .project-container {
-  position: relative;
-  z-index: 1; /* set z-index to make project cards appear above the video */
-  /* } */
-  
 
-/* .projects .horiseon .seo{ 
-  position: absolute;
-  width: 22rem;
-  height: 18rem;
-  left: 1%;
-  bottom: 20px;
-  z-index: 2; /* set z-index to make project card appear above the video */
-/* } */
-
-/* .projects .manifesto .gambling{
-  position: absolute;
-  width: 14rem;
-  height: 14rem;
-  left: 38em;
-  bottom: 10px;
-  z-index: 2; /* set z-index to make project card appear above the video */
-/* } */ 
-
-/* .projects .journeez {
-  position: absolute;
-  width: 14rem;
-  height: 14rem;
-  left: 65em;
-  bottom: 10px;
-  z-index: 2; /* set z-index to make project card appear above the video */
-/* } */
-
-
-/* .projects .horiseon h5 {
-  position: absolute;
-  font-size: 28px;
-  bottom: 210px;
-  left: 14%;
-  color:#000000;
-} */
-
-/* .projects .manifesto h5 {
-  position: absolute;
-  font-size: 25px;
-  bottom: 190px;
-  left: 20em;
-  color:greenyellow;
-} */
-
-/* .projects .journeez h5 {
-  position: absolute;
-  font-size: 24px;
-  bottom: 170px;
-  left: 45em;
-  color:whitesmoke;
-} */

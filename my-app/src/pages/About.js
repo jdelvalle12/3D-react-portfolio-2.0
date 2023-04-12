@@ -17,7 +17,8 @@ export default function About() {
           development. In addition, on the back end development, I have experience in MySQL, Node.js, 
           Express.js, REACT, GraphQL & MongoDB. I have an appetite for continuous learning, collaboration, 
           and problem-solving, and I plan to create and maintain websites while also developing apps. Aside from 
-          programming, I like listen to a variety of music, play videogames and travel around the world. 
+          programming, I'm originally from NYC, I like listen to a variety of music, play videogames and travel 
+          around the world. 
         </div>
       </div>
     </section>
