@@ -1,12 +1,55 @@
 /*Contacts*/
 
 .contact-container {
-    margin-bottom: 0;
-    padding: 20px 10px 40px 10px;
-    background: none;
-    font-size: 20px;
-    }
-    
-    .contact h2 {
-      font-size: 32px;
-    }
+  margin-bottom: 8rem;
+  padding: 20px 10px 40px 10px;
+  background: navy;
+  font-size: 20px;
+  /* Add styles for the box */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin-left: 25rem;
+  margin-top: 4rem;
+}
+
+.contact-container input[type="text"] {
+  width: 50%;
+  font-size: 18px;
+  padding: 30px;
+  margin-left: 12rem;
+}
+
+.contact-container label {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 12rem;
+  
+}
+
+.contact-container button[type="submit"] {
+  font-size: 18px;
+  padding: 10px 20px;
+  /* Add styles for the submit button */
+  background-color: magenta;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 12rem;
+  margin-top: 1rem;
+}
+
+.contact-title {
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+.contact-title:hover {
+  color: magenta;
+}
+
+.contact-header {
+  margin-left: 12rem;
+}
