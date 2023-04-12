@@ -47,3 +47,12 @@ h2 {
     color: white;
     
 }
+
+.abouttitle {
+  font-size: 2rem;
+  margin-left: 18rem;
+}
+
+.abouttitle:hover {
+  color: cyan;
+}

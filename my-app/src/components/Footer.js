@@ -17,6 +17,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="contact-info">
+        <h4>Email: jdelvalle88@live.com</h4>
         <h4> Contact Number: 386-848-5245</h4>
       </div>
     </footer>
