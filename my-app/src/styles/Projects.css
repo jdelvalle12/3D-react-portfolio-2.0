@@ -27,8 +27,8 @@
 }
 .project-card {
   position: relative; /* set position to relative for proper positioning */
-  width: 200px; /* update width to your desired size */
-  height: 200px; /* update height to your desired size */
+  width: 12rem; /* update width to your desired size */
+  height: 9rem; /* update height to your desired size */
   margin: 0 45px; /* add margin as needed for spacing between project cards */
   top: 4rem;
 }
@@ -37,6 +37,40 @@
   width: 100%; /* set image width to 100% to fit within project card */
   height: 100%; /* set image height to 100% to fit within project card */
   object-fit: cover; /* use object-fit property to control how image is resized within project card */
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6); /* set desired overlay background color and opacity */
+  opacity: 0; /* set initial opacity to 0 for transition effect */
+  transition: opacity 0.3s ease-in-out; /* add transition effect for opacity */
+}
+
+.project-card:hover .project-card-overlay {
+  opacity: 1; /* change opacity to 1 on hover to reveal the overlay with the link */
+}
+
+.project-card-overlay h3 {
+  color: #fff; /* set desired link text color */
+  font-size: 18px; /* set desired link text size */
+  text-align: center;
+}
+
+.project-card-overlay a {
+  color: #fff; /* set desired link color */
+  text-decoration: none; /* remove default underline style */
+}
+
+.project-card-overlay a:hover {
+  text-decoration: underline; /* add underline effect on hover */
 }
 
 /* .project-container {

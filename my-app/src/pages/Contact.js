@@ -5,19 +5,28 @@ export default function Contact() {
   return (
     <div className='contact-container'>
       <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <div class="design-inquiries">
+      <h3>Design Inquiries:</h3>
+      <form>
+        <ul>
+          <li>
+            <label class="text-right" for="name">Name:</label>
+            <input type="text" id="name" name="user-name"/>
+          </li>
+          <li>
+            <label class="text-right" for="email">Email:</label>
+            <input type="text" id="email" name="user-email"/>
+          </li>
+          <li>
+            <label class="text-right" for="message">Message:</label>
+            <input type="text" id="message" name="user-message"/>
+          </li>
+        </ul>
+        <div class="text-center">
+          <button type="submit">SEND</button>
+        </div>
+      </form>
+    </div>
     </div>
   );
 }
