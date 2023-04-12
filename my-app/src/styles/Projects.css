@@ -1,12 +1,12 @@
 /*Projects Section*/
 .projects-container {
-  position: absolute;
-  padding: auto;
-  z-index: 100;
-  display: block;
+  position: relative;
+  padding-bottom: 14rem;
+  z-index: 1;
+  display: flex;
   font-size: 24px;
-  top: 605px;
-  color:#000000;
+  /* top: 15rem; */
+  color:whitesmoke;
   height: auto;
   width: auto;
   text-decoration: none;
@@ -17,66 +17,82 @@
   position: relative;
 }
 
-.h2 {
-  font-size: 35px;
-}
-
-.project-container {
-  position: relative;
-  z-index: 1; /* set z-index to make project cards appear above the video */
+.title {
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 .project-card {
   position: relative; /* set position to relative for proper positioning */
 }
+.project-card {
+  position: relative; /* set position to relative for proper positioning */
+  width: 200px; /* update width to your desired size */
+  height: 200px; /* update height to your desired size */
+  margin: 0 45px; /* add margin as needed for spacing between project cards */
+  top: 4rem;
+}
 
-.projects .horiseon .seo{ 
+.project-card img {
+  width: 100%; /* set image width to 100% to fit within project card */
+  height: 100%; /* set image height to 100% to fit within project card */
+  object-fit: cover; /* use object-fit property to control how image is resized within project card */
+}
+
+/* .project-container {
+  position: relative;
+  z-index: 1; /* set z-index to make project cards appear above the video */
+  /* } */
+  
+
+/* .projects .horiseon .seo{ 
   position: absolute;
   width: 22rem;
   height: 18rem;
   left: 1%;
   bottom: 20px;
   z-index: 2; /* set z-index to make project card appear above the video */
-}
+/* } */
 
-.projects .manifesto .gambling{
+/* .projects .manifesto .gambling{
   position: absolute;
   width: 14rem;
   height: 14rem;
   left: 38em;
   bottom: 10px;
   z-index: 2; /* set z-index to make project card appear above the video */
-}
+/* } */ 
 
-.projects .journeez {
+/* .projects .journeez {
   position: absolute;
   width: 14rem;
   height: 14rem;
   left: 65em;
   bottom: 10px;
   z-index: 2; /* set z-index to make project card appear above the video */
-}
+/* } */
 
-.projects .horiseon h5 {
+
+/* .projects .horiseon h5 {
   position: absolute;
   font-size: 28px;
   bottom: 210px;
   left: 14%;
   color:#000000;
-}
+} */
 
-.projects .manifesto h5 {
+/* .projects .manifesto h5 {
   position: absolute;
   font-size: 25px;
   bottom: 190px;
   left: 20em;
   color:greenyellow;
-}
+} */
 
-.projects .journeez h5 {
+/* .projects .journeez h5 {
   position: absolute;
   font-size: 24px;
   bottom: 170px;
   left: 45em;
   color:whitesmoke;
-}
+} */
