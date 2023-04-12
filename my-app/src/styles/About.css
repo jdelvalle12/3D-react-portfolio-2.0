@@ -51,6 +51,7 @@ h2 {
 .abouttitle {
   font-size: 2rem;
   margin-left: 18rem;
+  color:black;
 }
 
 .abouttitle:hover {
