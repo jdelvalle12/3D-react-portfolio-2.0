@@ -31,6 +31,9 @@ export default function Resume() {
           developing apps with a focus on design and development. Strengths in critical thinking, analytical, creativity, teamwork,
           organizational & time management skills. Go ahead and download my resume.
         </p>
+        <div className='resume-download-button'>
+          <button onClick={handleDownload}>Click Here To Download Resume</button>
+        </div>
         <ul>
           <h4>Technical Skills:</h4>
           <FontAwesomeIcon icon={faHtml5} /> {/* HTML5 */}
@@ -41,9 +44,6 @@ export default function Resume() {
           <FontAwesomeIcon icon={faNodeJs} /> {/* Node.js */}
           <FontAwesomeIcon icon={faBootstrap} /> {/* Bootstrap */}
         </ul>
-        <div className='resume-download-button'>
-          <button onClick={handleDownload}>Click Here To Download Resume</button>
-        </div>
         </div>        
       </div>
     );

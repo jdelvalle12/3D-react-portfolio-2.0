@@ -5,6 +5,8 @@
   padding-bottom: 14rem;
   z-index: 1;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   font-size: 24px;
   /* top: 15rem; */
   color:whitesmoke;
@@ -35,7 +37,7 @@
   position: relative; /* set position to relative for proper positioning */
   width: 12rem; /* update width to your desired size */
   height: 9rem; /* update height to your desired size */
-  margin: 0 45px; /* add margin as needed for spacing between project cards */
+  margin: 1rem 25px; /* add margin as needed for spacing between project cards */
   top: 4rem;
 }
 

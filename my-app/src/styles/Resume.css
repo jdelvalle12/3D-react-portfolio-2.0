@@ -12,10 +12,11 @@
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 50%;
-    margin-left: 25rem;
+    margin-left: 13rem;
     margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: white;
+    /* max-height: 40rem; */
   }
   
   .background-video {
@@ -51,7 +52,7 @@
   .resume-card h4 {
     font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 5px;
   }
   
   /* .resume-card li {
@@ -67,7 +68,8 @@
 
   .resume-download-button {
     margin-bottom: 1rem;
-    margin-left: 17rem;
+    margin-left: 4rem;
+    margin-top: -7rem;
     }
 
     .resume-download-button button {
@@ -81,6 +83,7 @@
         font-weight: bold; /* Set font weight */
         border-radius: 4px; /* Add border radius */
         transition: background-color 0.3s ease-in-out; /* Add transition effect */
+        width: 20rem;
       }
       
       .resume-download-button button:hover {

@@ -3,16 +3,16 @@
 .contact-container {
   position: relative;
   margin-bottom: 0rem;
-  padding: 10px 5px 20px 10px;
+  padding: 5px 5px 18px 5px;
   background: rgb(5, 5, 41);
   font-size: 20px;
   /* Add styles for the box */
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 50%;
-  margin-left: 25rem;
-  margin-top: 3rem;
+  width: 60%;
+  margin-left: 5rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -20,14 +20,14 @@
   width: 50%;
   font-size: 18px;
   padding: 30px;
-  margin-left: 12rem;
+  margin-left: 8rem;
   margin-bottom: 1rem;
 }
 
 .contact-container label {
   display: block;
   margin-bottom: 5px;
-  margin-left: 12rem;
+  margin-left: 8rem;
 }
 
 .contact-container button[type="submit"] {
@@ -39,7 +39,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 12rem;
+  margin-left: 8rem;
   margin-top: 1rem;
 }
 
@@ -58,9 +58,9 @@
 }
 
 .contact-header {
-  margin-left: 12rem;
+  margin-left: 8rem;
 }
 
-.text-right-messsage {
+.text-right-message {
   margin-bottom: 3rem;
 }
