@@ -4,7 +4,7 @@
   position: relative;
   margin-bottom: 0rem;
   padding: 10px 5px 20px 10px;
-  background: navy;
+  background: rgb(5, 5, 41);
   font-size: 20px;
   /* Add styles for the box */
   border: 1px solid #ccc;
@@ -47,8 +47,9 @@
 }
 
 .contact-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-left: 2rem;
+  text-align: center;
 }
 
 .contact-title:hover {

@@ -13,7 +13,13 @@ import Abstract from '../images/abstract-structure.mp4';
 import '../styles/Resume.css';
 
 export default function Resume() {
+  const handleDownload = () => {
+    // Logic to handle download, such as fetching resume file and generating download URL
+    const resumeFileUrl = 'https://example.com/resume.pdf'; // Replace with your resume file URL
+    window.open(resumeFileUrl, '_blank');
+  };
     return (
+      
       <div className='resume-container'>
       <video src={Abstract} autoPlay loop muted className="background-video"></video>
       {/* Resume Card */}
@@ -21,9 +27,9 @@ export default function Resume() {
         <h1 className='resume-title'>Resume</h1>
         <p>
           A Full Stack Developer with an array of tech skills from the front end to back end such as Express.js, MySQL, GraphSQL,
-          in addition to the tech skills below. I'm detail-oriented Hardworking innovative problem-solver who is passionate about
+          in addition to the tech skills below. A detail-oriented hardworking innovative problem-solver who is passionate about
           developing apps with a focus on design and development. Strengths in critical thinking, analytical, creativity, teamwork,
-          organizational & time management skills.
+          organizational & time management skills. Go ahead and download my resume.
         </p>
         <ul>
           <h4>Technical Skills:</h4>
@@ -35,6 +41,9 @@ export default function Resume() {
           <FontAwesomeIcon icon={faNodeJs} /> {/* Node.js */}
           <FontAwesomeIcon icon={faBootstrap} /> {/* Bootstrap */}
         </ul>
+        <div className='resume-download-button'>
+          <button onClick={handleDownload}>Click Here To Download Resume</button>
+        </div>
         </div>        
       </div>
     );

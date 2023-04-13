@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaGithub, FaLinkedin } from 'react-icons/fa'; // Import the GitHub and LinkedIn icons from the font icon library
+import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa'; // Import the GitHub and LinkedIn icons from the font icon library
 
 const Footer = () => {
   return (
@@ -14,6 +14,9 @@ const Footer = () => {
         </a>
         <a href="https://linkedin.com/in/jose-del-valle-94993a124/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="icon" />
+        </a>
+        <a href="https://www.facebook.com/jose.j.delvalle.58" target="_blank" rel="noopener noreferrer">
+          <FaFacebook className="icon" />
         </a>
       </div>
       <div className="contact-info">
