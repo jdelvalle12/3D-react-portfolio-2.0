@@ -18,7 +18,7 @@
    
   
    .projects {
-    color: rgb(190, 187, 187);
+    color: whitesmoke;
     padding-right: 2.0rem;
     margin: 0 80px;
     font-family: "Orbitron","Quantico", sans-serif;
@@ -32,7 +32,7 @@
   }
 
    .contact {
-    color: rgb(190, 187, 187);
+    color: whitesmoke;
     padding-right: 2.0rem;
     margin: 0 80px;
     font-family: "Orbitron","Quantico", sans-serif;
@@ -46,7 +46,7 @@
   }
 
   .about-me {
-    color: rgb(190, 187, 187);
+    color: whitesmoke;
     padding-right: 2.0rem;
     margin: 0 80px;
     font-family: "Orbitron","Quantico", sans-serif;
@@ -60,7 +60,7 @@
   }
 
   .resume {
-    color: rgb(190, 187, 187);
+    color: whitesmoke;
     padding-right: 2.0rem;
     margin: 0 80px;
     font-family: "Orbitron","Quantico", sans-serif;

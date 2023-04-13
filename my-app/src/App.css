@@ -1,7 +1,7 @@
  html {
   position: relative;
   font-family: "Orbitron","Quantico", sans-serif;
-  font-size: 30px;
+  font-size: 1.7rem;
   background-color: black;
   color:rgb(109, 108, 108);
   margin:0;
@@ -13,7 +13,7 @@
 
  /* Media Query for Mobile Devices */
  @media only screen and (max-width: 480px) and (orientation: landscape) {
-  #main-content {
+  body {
       width: auto;
       height: auto;
       font-size: 30px;
@@ -22,7 +22,7 @@
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-  #main-content {
+  body {
       width: auto;
       height: auto;
       font-size: 30px
@@ -31,19 +31,19 @@
 
 /* Media Query for Tablets Ipads portrait mode */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  #main-content {
+  body {
       width: auto;
       height: auto;
-      font-size: 80px;
+      font-size: 16px;
   }
 }
 
 /* Media Query for Laptops and Desktops */
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
-  #main-content {
+  body {
       width: auto;
       height: auto;
-      font-size: 80px;
+      font-size: 16px;
   }
 }
 
@@ -136,7 +136,7 @@
 /* Navbar */
 
 .projects {
-  color: rgb(190, 187, 187);
+  color: whitesmoke;
   padding-right: 2.0rem;
   margin: 0 80px;
   font-family: "Orbitron","Quantico", sans-serif;
@@ -150,7 +150,7 @@
 }
 
  .contact {
-  color: rgb(190, 187, 187);
+  color: whitesmoke;
   padding-right: 2.0rem;
   margin: 0 80px;
   font-family: "Orbitron","Quantico", sans-serif;
@@ -164,7 +164,7 @@
 }
 
 .about-me {
-  color: rgb(190, 187, 187);
+  color: whitesmoke;
   padding-right: 2.0rem;
   margin: 0 80px;
   font-family: "Orbitron","Quantico", sans-serif;
@@ -178,7 +178,7 @@
 }
 
 .resume {
-  color: rgb(190, 187, 187);
+  color: whitesmoke;
   padding-right: 2.0rem;
   margin: 0 80px;
   font-family: "Orbitron","Quantico", sans-serif;
@@ -413,6 +413,7 @@
   height: auto;
   line-height: 50px;
   color: whitesmoke;
+  background-color: black;
   }
 
   .logo-relative:hover {
@@ -421,7 +422,7 @@
   
        .logo-relative {
         position: relative;
-        color: rgb(190, 187, 187);
+        color: whitesmoke;
         font-size: 2rem;
         text-decoration: none;
       }

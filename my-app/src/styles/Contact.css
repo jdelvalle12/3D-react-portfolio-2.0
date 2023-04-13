@@ -12,7 +12,8 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 50%;
   margin-left: 25rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .contact-container input[type="text"] {
