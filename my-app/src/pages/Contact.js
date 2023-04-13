@@ -1,6 +1,7 @@
 import React from 'react';
 import Rotating from '../images/rotating-planet.mp4';
 import '../styles/Contact.css';
+import '../App.css';
 
 export default function Contact() {
   return (

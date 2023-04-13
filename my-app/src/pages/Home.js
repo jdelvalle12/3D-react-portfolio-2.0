@@ -1,7 +1,7 @@
 import React from 'react';
 import Digital from '../images/digital-world.mp4';
 import '../styles/Home.css';
-// import '../App.css';
+import '../App.css';
 
  export default function Home() {
  

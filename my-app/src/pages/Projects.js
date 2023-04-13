@@ -9,6 +9,7 @@ import Notepad from '../images/notepad.jpg';
 import Winery from '../images/Winery.jpg';
 import Fireworks from '../images/digital-fireworks.mp4';
 import '../styles/Projects.css';
+import '../App.css';
 
 const Projects = () => {
   return (

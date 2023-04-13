@@ -2,7 +2,7 @@ import React from 'react';
 import Me from '../images/Me.jpg';
 import backgroundImage from '../images/Background.jpg';
 import '../styles/About.css';
-// import '../App.css';
+import '../App.css';
 
 export default function About() {
   return (
