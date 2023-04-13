@@ -1,5 +1,5 @@
 import React from 'react';
-import Rotating from '../images/rotating-planet.mp4';
+import Digital from '../images/digital-world.mp4';
 import '../styles/Home.css';
 // import '../App.css';
 
@@ -7,9 +7,9 @@ import '../styles/Home.css';
  
   return (
     <section className="home-container">
-      <video src={Rotating} autoPlay loop muted className="background-video"></video>
+      <video src={Digital} autoPlay loop muted className="background-video"></video>
       <div className='home-content'>    
-      <h1>Welcome...feel free to take a look...</h1>
+      <h1>Welcome to the Digital World...take a look around...</h1>
         <p>
           “Design is not just what it looks like and feels like. Design is how it works.” –Steve Jobs
         </p>

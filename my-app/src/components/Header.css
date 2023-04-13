@@ -10,19 +10,19 @@
     color: whitesmoke;
     }
 
-    /* .logo:hover {
-        color: aquamarine;
-        } */
+    .logo-relative:hover {
+        color: limegreen;
+        }
         
-    .logo {
+    .logo-relative {
       position: relative;
-      color: whitesmoke;
+      color: rgb(190, 187, 187);
       font-size: 2rem;
       text-decoration: none;
     }
     
-    .logo::before,
-    .logo::after {
+    .logo-relative::before,
+    .logo-relative::after {
       content: '';
       position: absolute;
       top: 0;
@@ -32,12 +32,12 @@
       z-index: -1;
     }
     
-    .logo::before {
+    .logo-relative::before {
       /* background-color: #0BC5EA; Replace with desired color */
       animation: glitch-1 2s infinite;
     }
     
-    .logo::after {
+    .logo-relative-relative::after {
       animation: glitch-2 3s infinite;
     }
       

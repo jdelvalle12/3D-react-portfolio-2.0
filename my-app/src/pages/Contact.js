@@ -1,9 +1,11 @@
 import React from 'react';
+import Rotating from '../images/rotating-planet.mp4';
 import '../styles/Contact.css';
 
 export default function Contact() {
   return (
-  
+  <section>
+  <video src={Rotating} autoPlay loop muted className="background-video"></video> 
     <div className='contact-container'>
       <h1 className='contact-title'>Contact</h1>
       <div className="design-inquiries">
@@ -24,6 +26,6 @@ export default function Contact() {
         </form>
       </div>
     </div>
- 
+  </section> 
   );
 }
