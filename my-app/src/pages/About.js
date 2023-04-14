@@ -1,12 +1,12 @@
 import React from 'react';
 import Me from '../images/Me.jpg';
-import backgroundImage from '../images/Background.jpg';
+import Background from '../images/Background.jpg';
 import '../styles/About.css';
 import '../App.css';
 
 export default function About() {
   return (
-    <section className="aboutme-container" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <section className="aboutme-container" style={{ backgroundImage: `url(${Background})` }}>
      <div> 
         <h2 className='abouttitle'>About Me</h2>
       <img src={Me} alt="Jose" className="profile-picture" />
