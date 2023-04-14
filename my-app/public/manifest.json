@@ -1,6 +1,6 @@
 {
   "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "joseddeveloper",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +8,73 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "images/abstract-structure.mp4",
+      "type": "video/mp4",
+      "sizes": "1920x1080"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "images/Background.jpg",
+      "type": "image/jpeg",
+      "sizes": "1170x780"
+    },
+    {
+      "src": "images/day-planner.jpg",
+      "type": "image/jpeg",
+      "sizes": "1170x780"
+    },
+    {
+      "src": "images/digital-fireworks.mp4",
+      "type": "video/mp4",
+      "sizes": "1920x1080"
+    },
+    {
+      "src": "images/Flick-Tracker.jpg",
+      "type": "image/jpeg",
+      "sizes": "406x228"
+    },
+    {
+      "src": "images/Journeez.jpg",
+      "type": "image/jpeg",
+      "sizes": "800x632"
+    },
+    {
+      "src": "images/manifesto.jpg",
+      "type": "image/jpeg",
+      "sizes": "1352x876"
+    },
+    {
+      "src": "images/Me.jpg",
+      "type": "image/jpeg",
+      "sizes": "720x960"
+    },
+    {
+      "src": "images/notepad.jpg",
+      "type": "image/jpeg",
+      "sizes": "500x333"
+    },
+    {
+      "src": "images/rotating-planet.mp4",
+      "type": "video/mp4",
+      "sizes": ""
+    },
+    {
+      "src": "images/SEO.jpg",
+      "type": "image/jpeg",
+      "sizes": "1170x780"
+    },
+    {
+      "src": "images/weather-forecast.jpg",
+      "type": "image/jpeg",
+      "sizes": "500x333"
+    },
+    {
+      "src": "images/Winery.jpg",
+      "type": "image/jpeg",
+      "sizes": "1170x780"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+"start_url": ".",
+"display": "standalone",
+"theme_color": "#000000",
+"background_color": "#ffffff"
 }
