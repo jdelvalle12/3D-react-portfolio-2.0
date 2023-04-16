@@ -13,6 +13,7 @@
   height: auto;
   width: auto;
   text-decoration: none;
+  object-fit: cover;
 }
 
 .projects-section span {
@@ -30,14 +31,14 @@
   color: rgb(245, 71, 40);
 }
 
-.project-card {
+/* .project-card {
   position: relative; /* set position to relative for proper positioning */
-}
+/* }  */
 .project-card {
   position: relative; /* set position to relative for proper positioning */
   width: 12rem; /* update width to your desired size */
   height: 9rem; /* update height to your desired size */
-  margin: 1rem 25px; /* add margin as needed for spacing between project cards */
+  margin: 1rem 25px 1rem 1rem; /* add margin as needed for spacing between project cards */
   top: 4rem;
 }
 

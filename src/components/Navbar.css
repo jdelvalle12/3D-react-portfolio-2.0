@@ -19,8 +19,8 @@
   
    .projects {
     color: whitesmoke;
-    padding-right: 2.0rem;
-    margin: 0 80px;
+    padding-right: 0;
+    margin: 0 30px;
     font-family: "Orbitron","Quantico", sans-serif;
     font-size: 1rem;
     line-height: 1.9;
@@ -33,8 +33,8 @@
 
    .contact {
     color: whitesmoke;
-    padding-right: 2.0rem;
-    margin: 0 80px;
+    padding-right: 0;
+    margin: 0 30px;
     font-family: "Orbitron","Quantico", sans-serif;
     font-size: 1rem;
     line-height: 1.9;
@@ -47,8 +47,8 @@
 
   .about-me {
     color: whitesmoke;
-    padding-right: 2.0rem;
-    margin: 0 80px;
+    padding-right: 0;
+    margin: 0 30px;
     font-family: "Orbitron","Quantico", sans-serif;
     font-size: 1rem;
     line-height: 1.9;
@@ -61,8 +61,8 @@
 
   .resume {
     color: whitesmoke;
-    padding-right: 2.0rem;
-    margin: 0 80px;
+    padding-right: 0;
+    margin: 0 30px;
     font-family: "Orbitron","Quantico", sans-serif;
     font-size: 1rem;
     line-height: 1.9;

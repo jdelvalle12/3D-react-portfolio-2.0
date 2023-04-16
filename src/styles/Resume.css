@@ -12,7 +12,7 @@
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 50%;
-    margin-left: 13rem;
+    margin-left: 10rem;
     margin-top: 4rem;
     margin-bottom: 1rem;
     color: white;
@@ -68,7 +68,7 @@
 
   .resume-download-button {
     margin-bottom: 1rem;
-    margin-left: 4rem;
+    margin-left: 1rem;
     margin-top: -7rem;
     }
 
@@ -83,7 +83,7 @@
         font-weight: bold; /* Set font weight */
         border-radius: 4px; /* Add border radius */
         transition: background-color 0.3s ease-in-out; /* Add transition effect */
-        width: 20rem;
+        width: 15rem;
       }
       
       .resume-download-button button:hover {
