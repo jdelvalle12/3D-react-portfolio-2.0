@@ -28,7 +28,7 @@
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4;
     color:white;
-    background-color: none;
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -38,10 +38,10 @@
  /* Media Query for Mobile Devices */
  @media only screen and (max-width: 768px) and (orientation: portrait) {
   html {
-    max-width: 130%;
+    max-width: 140%;
     height: auto;
     overflow-y: auto;
-    font-size: 11px;
+    font-size: 13px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -249,7 +249,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 115%;
+  width: 100.4%;
   height: 100%;
   object-fit: cover;
   z-index: -1; /* Set a negative z-index to place the video behind the card */
@@ -423,7 +423,7 @@
   position: absolute;
   margin-top: 5;
   margin-bottom: 0;
-  border-top: 2px solid gray;
+  /* border-top: 2px solid gray; */
   /* border-bottom: 5px solid #6b6b6b; */
   color: #FDF8F5;
   text-align: center;
