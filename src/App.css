@@ -14,7 +14,7 @@
  /* Media Query for Mobile Devices */
  @media only screen and (max-width: 480px) and (orientation: portrait) {
   html {
-    max-width: 150%;
+    max-width: 130%;
     height: auto;
     overflow-y: auto;
     font-size: 14px;
@@ -38,10 +38,10 @@
  /* Media Query for Mobile Devices */
  @media only screen and (max-width: 768px) and (orientation: portrait) {
   html {
-    max-width: 150%;
+    max-width: 130%;
     height: auto;
     overflow-y: auto;
-    font-size: 14px;
+    font-size: 11px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -102,7 +102,7 @@
   padding-right: 0;
  }
 
-.background-video {
+/* .background-video {
   position: absolute;
   top: 0;
   left: 0;
@@ -110,7 +110,7 @@
   height: 100%;
   object-fit: fill;
   margin-right: 0;
-}
+} */
 
 .home-content{
   position: relative;
@@ -243,6 +243,16 @@
   height: auto;
   width: auto;
   text-decoration: none;
+}
+
+.projects-background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 115%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Set a negative z-index to place the video behind the card */
 }
 
 .projects-section span {

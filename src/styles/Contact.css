@@ -19,7 +19,7 @@
 .contact-container input[type="text"] {
   width: 50%;
   font-size: 18px;
-  padding: 0px;
+  padding: 15px;
   margin-left: 4rem;
   margin-bottom: 1rem;
 }
@@ -39,7 +39,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 8rem;
+  margin-left: 4rem;
   margin-top: 1rem;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .contact-header {
-  margin-left: 8rem;
+  margin-left: 4rem;
 }
 
 .text-right-message {

@@ -16,6 +16,16 @@
   object-fit: cover;
 }
 
+.projects-background-video {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  width: 145%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Set a negative z-index to place the video behind the card */
+}
+
 .projects-section span {
   font-size: 28px;
   position: relative;
@@ -38,8 +48,10 @@
   position: relative; /* set position to relative for proper positioning */
   width: 12rem; /* update width to your desired size */
   height: 9rem; /* update height to your desired size */
-  margin: 1rem 25px 1rem 1rem; /* add margin as needed for spacing between project cards */
+  margin: 1rem 25px 3rem .6rem; /* add margin as needed for spacing between project cards */
   top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project-card img {

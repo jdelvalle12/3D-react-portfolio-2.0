@@ -23,7 +23,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 115%;
     height: 100%;
     object-fit: cover;
     z-index: -1; /* Set a negative z-index to place the video behind the card */
@@ -83,7 +83,7 @@
         font-weight: bold; /* Set font weight */
         border-radius: 4px; /* Add border radius */
         transition: background-color 0.3s ease-in-out; /* Add transition effect */
-        width: 15rem;
+        width: 13rem;
       }
       
       .resume-download-button button:hover {

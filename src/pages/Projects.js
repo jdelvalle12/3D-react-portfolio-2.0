@@ -14,7 +14,7 @@ import '../App.css';
 const Projects = () => {
   return (
     <div>
-      <video src={Fireworks} autoPlay loop muted className="background-video"></video>
+      <video src={Fireworks} autoPlay loop muted className="projects-background-video"></video>
 
       <div>
         <h2 className='title'>Projects</h2>
