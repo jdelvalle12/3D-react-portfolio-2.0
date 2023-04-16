@@ -12,11 +12,32 @@
 }
 
  /* Media Query for Mobile Devices */
- @media only screen and (max-width: 480px) and (orientation: landscape) {
+ @media only screen and (max-width: 480px) and (orientation: portrait) {
   body {
       width: auto;
       height: auto;
-      font-size: 1rem;
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.4;
+      color:white;
+      background-color: #000;
+  }
+}
+
+ /* Media Query for Mobile Devices */
+ @media only screen and (max-width: 768px) and (orientation: portrait) {
+  body {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color:white;
+    background-color: #000;
   }
 }
 
@@ -25,7 +46,7 @@
   body {
       width: auto;
       height: auto;
-      font-size: 30px
+      font-size: 1rem;
   }
 }
 
