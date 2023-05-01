@@ -40,7 +40,7 @@ const Projects = () => {
               <div className="project-card">
                 <img src={Journeez} alt="Journeez" />
               <div className="project-card-overlay">
-                  <h3><a href="https://example.com/journeez">journe<span className='EZ'>EZ</span></a></h3>
+                  <h3><a href="https://www.journeeztrip.com/">journe<span className='EZ'>EZ</span></a></h3>
               </div>
               </div>
               <div className="project-card">
