@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'react-bootstrap/Image';
 import Flick from '../images/Flick-Tracker.jpg';
 import manifesto from '../images/manifesto.jpg';
 import SEO from '../images/SEO.jpg';
@@ -8,69 +9,64 @@ import Planner from '../images/day-planner.jpg';
 import Notepad from '../images/notepad.jpg';
 import Winery from '../images/Winery.jpg';
 import Fireworks from '../images/digital-fireworks.mp4';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import '../styles/Projects.css';
 import '../App.css';
+
+
+const Carousel = () => {
+  const projects = [
+    { image: Flick, name: "Flick Tracker", link: "https://flick-tracker.herokuapp.com/" },
+    { image: manifesto, name: "Gambling Manifesto", link: "https://stickkman.github.io/gamblingManifesto-Proj01/" },
+    { image: SEO, name: "Horiseon", link: "https://jdelvalle12.github.io/horiseon-webpage/" },
+    { image: Journeez, name: "journeEZ", link: "https://www.journeeztrip.com/" },
+    { image: Weather, name: "Weather Forecast", link: "https://jdelvalle12.github.io/5-day-national-weather-forecast/" },
+    { image: Planner, name: "Day Planner", link: "https://jdelvalle12.github.io/day-planner/" },
+    { image: Notepad, name: "Notepad", link: "https://notetaken.herokuapp.com/" },
+    { image: Winery, name: "The Valley Winery", link: "https://jdelvalle12.github.io/thevalleywinery/" }
+  ];
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
+
+  return (
+    <Slider {...settings}>
+      {projects.map((project, index) => (
+        <div key={index}>
+          <div className="project-card">
+            <Image src={project.image} alt={`Slide ${index + 1}`} />
+            <div className="project-card-overlay">
+              <h3>
+                <a href={project.link}>{project.name}</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      ))}
+    </Slider>
+  );
+};
 
 const Projects = () => {
   return (
     <div>
-      <video src={Fireworks} autoPlay loop muted className="projects-background-video"></video>
-
+      <video src={Fireworks} autoPlay loop muted className="projects-background-video"></video>      
       <div>
-        <h2 className='title'>Projects</h2>
-        <div className="projects-container">
-          <div className="project-card">
-            <img src={Flick} alt="Flick-Tracker" />
-              <div className="project-card-overlay">
-                <h3><a href="https://flick-tracker.herokuapp.com/">Flick Tracker</a></h3>
-              </div>                
-              </div>
-              <div className="project-card">
-                <img src={manifesto} alt="manifesto" />
-                  <div className="project-card-overlay">
-                  <h3><a href="https://stickkman.github.io/gamblingManifesto-Proj01/">Gambling Manifesto</a></h3>
-              </div>                
-              </div>
-              <div className="project-card">
-                <img src={SEO} alt="SEO" />
-              <div className="project-card-overlay">
-                  <h3><a href="https://jdelvalle12.github.io/horiseon-webpage/">Horiseon</a></h3>
-              </div>                
-              </div>
-              <div className="project-card">
-                <img src={Journeez} alt="Journeez" />
-              <div className="project-card-overlay">
-                  <h3><a href="https://example.com/journeez">journe<span className='EZ'>EZ</span></a></h3>
-              </div>
-              </div>
-              <div className="project-card">
-                <img src={Weather} alt="Weather" />
-              <div className="project-card-overlay">
-                  <h3><a href="https://jdelvalle12.github.io/5-day-national-weather-forecast/">Weather Forecast</a></h3>
-              </div>
-              </div>
-              <div className="project-card">
-                <img src={Planner} alt="Planner" />
-              <div className="project-card-overlay">
-                  <h3><a href="https://jdelvalle12.github.io/day-planner/">Day Planner</a></h3>
-              </div>
-              </div>
-              <div className="project-card">
-                <img src={Notepad} alt="Notepad" />
-              <div className="project-card-overlay">
-                  <h3><a href="https://notetaken.herokuapp.com/">Notepad</a></h3>
-              </div>
-              </div>
-              <div className="project-card">
-                <img src={Winery} alt="Winery" />
-              <div className="project-card-overlay">
-                  <h3><a href="https://jdelvalle12.github.io/thevalleywinery/">The Valley Winery</a></h3>
-              </div>
-              </div>
-            </div>
-          </div>
+        <div className="carousel-container relative w-full items-center ">
+          <Carousel />
         </div>
-      );
-    }
+      </div>
+    </div>
+  );
+}
 
-export default Projects;
+export default Projects ;

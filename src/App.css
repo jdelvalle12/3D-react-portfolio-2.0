@@ -237,9 +237,11 @@
   padding-bottom: 14rem;
   z-index: 1;
   display: flex;
+  flex-direction: column; /* Add flex-direction column for vertical centering */
+  justify-content: center; /* Center the carousel vertically */
+  align-items: center; /* Center the carousel horizontally */
   font-size: 24px;
-  /* top: 15rem; */
-  color:whitesmoke;
+  color: whitesmoke;
   height: auto;
   width: auto;
   text-decoration: none;
@@ -263,7 +265,6 @@
 .title {
   font-size: 1.5rem;
   text-align: center;
-  margin-left: 26rem;
 }
 
 .title:hover {
@@ -297,9 +298,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.6); /* set desired overlay background color and opacity */
-  opacity: 0; /* set initial opacity to 0 for transition effect */
-  transition: opacity 0.3s ease-in-out; /* add transition effect for opacity */
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out; /* Add transition effect for opacity */
 }
 
 .project-card:hover .project-card-overlay {
