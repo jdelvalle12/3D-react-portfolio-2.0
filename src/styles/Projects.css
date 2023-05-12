@@ -1,26 +1,23 @@
-/*Projects Section*/
-
 .projects-container {
   position: relative;
   padding-bottom: 14rem;
   z-index: 1;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column; /* Add flex-direction column for vertical centering */
+  justify-content: center; /* Center the carousel vertically */
+  align-items: center; /* Center the carousel horizontally */
   font-size: 24px;
-  /* top: 15rem; */
-  color:whitesmoke;
+  color: whitesmoke;
   height: auto;
   width: auto;
   text-decoration: none;
-  object-fit: cover;
 }
 
 .projects-background-video {
   position: absolute;
-  /* top: 0;
-  left: 0; */
-  width: 145%;
+  top: 0;
+  left: 0;
+  width: 100.4%;
   height: 100%;
   object-fit: cover;
   z-index: -1; /* Set a negative z-index to place the video behind the card */
@@ -34,24 +31,21 @@
 .title {
   font-size: 1.5rem;
   text-align: center;
-  margin-left: 26rem;
 }
 
 .title:hover {
   color: rgb(245, 71, 40);
 }
 
-/* .project-card {
+.project-card {
   position: relative; /* set position to relative for proper positioning */
-/* }  */
+}
 .project-card {
   position: relative; /* set position to relative for proper positioning */
   width: 12rem; /* update width to your desired size */
   height: 9rem; /* update height to your desired size */
-  margin: 1rem 25px 3rem .6rem; /* add margin as needed for spacing between project cards */
+  margin: 0 45px; /* add margin as needed for spacing between project cards */
   top: 4rem;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .project-card img {
@@ -70,9 +64,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.6); /* set desired overlay background color and opacity */
-  opacity: 0; /* set initial opacity to 0 for transition effect */
-  transition: opacity 0.3s ease-in-out; /* add transition effect for opacity */
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out; /* Add transition effect for opacity */
 }
 
 .project-card:hover .project-card-overlay {
@@ -97,4 +91,3 @@
 .EZ {
   color:blue;
 }
-

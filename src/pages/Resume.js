@@ -12,11 +12,13 @@ import {
 import Abstract from '../images/abstract-structure.mp4';
 import '../styles/Resume.css';
 
+
+
 export default function Resume() {
   const handleDownload = () => {
-    // Logic to handle download, such as fetching resume file and generating download URL
-    const resumeFileUrl = 'https://docs.google.com/document/d/1MwgUe02NtDMYgJlMv3Wl3V-1TfaG0YsI.pdf'; // Replace with your resume file URL
-    window.open(resumeFileUrl, '_blank');
+    // Logic to handle download
+    const resumeFilePath = require('../documents/Jose D Resume.pdf');
+    window.open(resumeFilePath, '_blank');
   };
     return (
       
