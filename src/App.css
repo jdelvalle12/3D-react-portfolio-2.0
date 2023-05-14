@@ -272,12 +272,16 @@
 }
 .project-card {
   position: relative; /* set position to relative for proper positioning */
-  width: 33rem; /* update width to your desired size */
+  width: 26rem; /* update width to your desired size */
   height: 19rem; /* update height to your desired size */
   margin-bottom: 15rem;
+  margin-left: auto; /* remove the margin-left property */
+  margin-right: auto; /* add margin-right property with value auto */
   justify-content: center;
-  top: 4rem;
   display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  top: 7rem;
   align-items: center; /* vertically center the content */
 }
 
