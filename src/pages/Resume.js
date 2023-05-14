@@ -11,15 +11,23 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import Abstract from '../images/abstract-structure.mp4';
 import '../styles/Resume.css';
+import PDF from '../documents/Jose D Resume.pdf';
 
 
 
 export default function Resume() {
   const handleDownload = () => {
-    // Logic to handle download
-    const resumeFilePath = require('../documents/Jose D Resume.pdf');
-    window.open(resumeFilePath, '_blank');
-  };
+    fetch(PDF)
+    .then((response) => response.blob())
+    .then((blob) => {
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'Jose D Resume.pdf';
+      a.click();
+      window.URL.revokeObjectURL(url);
+    });
+};
     return (
       
       <div className='resume-container'>
@@ -34,7 +42,9 @@ export default function Resume() {
           organizational & time management skills. Go ahead and download my resume.
         </p>
         <div className='resume-download-button'>
-          <button onClick={handleDownload}>Click Here To Download Resume</button>
+          <a href={PDF} handleDownload='Jose D Resume.pdf'>
+              Click Here To Download Resume
+          </a>
         </div>
         <ul>
           <h4>Technical Skills:</h4>

@@ -1,16 +1,17 @@
-.projects-container {
+/* .projects-container {
   position: relative;
   padding-bottom: 14rem;
   z-index: 1;
   display: flex;
-  flex-direction: column; /* Add flex-direction column for vertical centering */
-  justify-content: center; /* Center the carousel vertically */
-  align-items: center; /* Center the carousel horizontally */
-  font-size: 24px;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  font-size: 2rem;
   color: whitesmoke;
   height: auto;
   width: auto;
   text-decoration: none;
+  margin-bottom: 2rem;
 }
 
 .projects-background-video {
@@ -20,7 +21,7 @@
   width: 100.4%;
   height: 100%;
   object-fit: cover;
-  z-index: -1; /* Set a negative z-index to place the video behind the card */
+  z-index: -1; 
 }
 
 .projects-section span {
@@ -38,20 +39,20 @@
 }
 
 .project-card {
-  position: relative; /* set position to relative for proper positioning */
+  position: relative;
 }
 .project-card {
-  position: relative; /* set position to relative for proper positioning */
-  width: 12rem; /* update width to your desired size */
-  height: 9rem; /* update height to your desired size */
-  margin: 0 45px; /* add margin as needed for spacing between project cards */
+  position: relative; 
+  width: 12rem; 
+  height: 9rem; 
+  margin: 0 45px; 
   top: 4rem;
 }
 
 .project-card img {
-  width: 100%; /* set image width to 100% to fit within project card */
-  height: 100%; /* set image height to 100% to fit within project card */
-  object-fit: cover; /* use object-fit property to control how image is resized within project card */
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
   transition: transform 0.3s ease-in-out;
 }
 
@@ -66,28 +67,34 @@
   align-items: center;
   background-color: rgba(0, 0, 0, 0.6);
   opacity: 0;
-  transition: opacity 0.3s ease-in-out; /* Add transition effect for opacity */
+  transition: opacity 0.3s ease-in-out; 
 }
 
 .project-card:hover .project-card-overlay {
-  opacity: 1; /* change opacity to 1 on hover to reveal the overlay with the link */
+  opacity: 1; 
 }
 
 .project-card-overlay h3 {
-  color: #fff; /* set desired link text color */
-  font-size: 1rem; /* set desired link text size */
+  color: #fff; 
+  font-size: 1rem; 
   text-align: center;
 }
 
 .project-card-overlay a {
-  color: #fff; /* set desired link color */
-  text-decoration: none; /* remove default underline style */
+  color: #fff; 
+  text-decoration: none; 
 }
 
 .project-card-overlay a:hover {
-  text-decoration: underline; /* add underline effect on hover */
+  text-decoration: underline; 
 }
 
 .EZ {
   color:blue;
 }
+
+.carousel-container {
+  margin-top: 10rem;
+  margin: 0 auto;
+  align-items: center;
+} */
