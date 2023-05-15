@@ -5,15 +5,14 @@
     z-index: 1;
     /* margin-bottom: 0rem; */
     padding: 0;
-    background: rgb(5, 5, 41);
+    background: linear-gradient(to bottom, rgb(5, 5, 41), rgb(61, 67, 102));
     font-size: 20px;
     /* Add styles for the box */
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 50%;
-    margin-left: 10rem;
-    margin-top: 4rem;
+    margin: 4rem auto;
     margin-bottom: 1rem;
     color: white;
     /* max-height: 40rem; */

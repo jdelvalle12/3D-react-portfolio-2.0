@@ -31,11 +31,11 @@ const Carousel = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
   };
 
   return (
@@ -43,7 +43,7 @@ const Carousel = () => {
       {projects.map((project, index) => (
         <div key={index}>
           <div className="project-card">
-            <Image src={project.image} alt={`Slide ${index + 1}`} />
+            <Image src={project.image} alt={`Slide ${index + 1}`} width={600} height={400}/>
             <div className="project-card-overlay">
               <h3>
                 <a href={project.link}>{project.name}</a>

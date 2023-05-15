@@ -2,7 +2,7 @@
   position: relative;
   font-family: "Orbitron","Quantico", sans-serif;
   font-size: 1.7rem;
-  background-color: black;
+  background: linear-gradient(to bottom, #000000, #d3cfcf);
   /* color:rgb(109, 108, 108); */
   margin:0;
   padding:0;  
@@ -237,7 +237,7 @@
   padding-bottom: 14rem;
   z-index: 1;
   display: flex;
-  flex-direction: column; /* Add flex-direction column for vertical centering */
+  /* flex-direction: column; Add flex-direction column for vertical centering */
   justify-content: center; /* Center the carousel vertically */
   align-items: center; /* Center the carousel horizontally */
   font-size: 24px;
@@ -270,6 +270,7 @@
 .title:hover {
   color: rgb(245, 71, 40);
 }
+
 .project-card {
   position: relative; /* set position to relative for proper positioning */
   width: 26rem; /* update width to your desired size */
@@ -283,6 +284,16 @@
   overflow: hidden;
   top: 7rem;
   align-items: center; /* vertically center the content */
+  /* animation: slide-in 20s infinite; */
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(50%);
+  }
 }
 
 .project-card img {
@@ -325,7 +336,7 @@
   text-decoration: underline; /* add underline effect on hover */
 }
 
-.EZ {
+.ez {
   color:blue;
 }
 
@@ -341,15 +352,15 @@
   z-index: 1;
   /* margin-bottom: 0rem; */
   padding: 20px 10px 20px 10px;
-  background: rgb(5, 5, 41);
+  /* background: rgb(5, 5, 41); */
+  background: linear-gradient(to bottom, rgb(5, 5, 41), rgb(61, 67, 102));
   font-size: 20px;
   /* Add styles for the box */
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 50%;
-  margin-left: 25rem;
-  margin-top: 4rem;
+  margin: 4rem auto;
   color: white;
 }
 
@@ -405,7 +416,7 @@
   margin-left: 17rem;
   }
 
-  .resume-download-button a {
+  .resume-download-button button {
       /* Customize button styles */
       background-color: #007bff; /* Set background color */
       color: #fff; /* Set text color */

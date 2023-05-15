@@ -32,6 +32,7 @@
   width: 10px; /* Add spacing between the icons as needed */
 }
 
-.contact-info {
+.contact-info a {
   margin-top: 1rem;
+  color:whitesmoke;
 }
