@@ -321,6 +321,17 @@
   opacity: 1; /* change opacity to 1 on hover to reveal the overlay with the link */
 }
 
+.project-card-links  {
+  color: white
+}
+
+.project-card-details p {
+  color: whitesmoke;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, rgb(5, 5, 41), rgb(61, 67, 102));
+}
+
 .project-card-overlay h3 {
   color: #fff; /* set desired link text color */
   font-size: 1rem; /* set desired link text size */

@@ -18,14 +18,14 @@ import '../App.css';
 
 const Carousel = () => {
   const projects = [
-    { image: Flick, name: "Flick Tracker", link: "https://flick-tracker.herokuapp.com/" },
+    { image: Flick, name: "Flick Tracker", description: "A movie tracking application", githubLink: "https://github.com/NicholasTozzi/flick-tracker", link: "https://flick-tracker.herokuapp.com/" },
     { image: manifesto, name: "Gambling Manifesto", link: "https://stickkman.github.io/gamblingManifesto-Proj01/" },
-    { image: SEO, name: "Horiseon", link: "https://jdelvalle12.github.io/horiseon-webpage/" },
-    { image: Journeez, name: "journeEZ", link: "https://www.journeeztrip.com/" },
-    { image: Weather, name: "Weather Forecast", link: "https://jdelvalle12.github.io/5-day-national-weather-forecast/" },
-    { image: Planner, name: "Day Planner", link: "https://jdelvalle12.github.io/day-planner/" },
-    { image: Notepad, name: "Notepad", link: "https://notetaken.herokuapp.com/" },
-    { image: Winery, name: "The Valley Winery", link: "https://jdelvalle12.github.io/thevalleywinery/" }
+    { image: SEO, name: "Horiseon", description: "", githubLink: "https://github.com/jdelvalle12/horiseon-webpage", link: "https://jdelvalle12.github.io/horiseon-webpage/" },
+    { image: Journeez, name: "journeEZ", description: "", githubLink: "https://github.com/jdelvalle12/journeeztrip", link: "https://www.journeeztrip.com/" },
+    { image: Weather, name: "Weather Forecast", description: "", githubLink: "https://github.com/jdelvalle12/5-day-national-weather-forecast", link: "https://jdelvalle12.github.io/5-day-national-weather-forecast/" },
+    { image: Planner, name: "Day Planner", description: "", githubLink: "https://github.com/jdelvalle12/day-planner", link: "https://jdelvalle12.github.io/day-planner/" },
+    { image: Notepad, name: "Notepad", description: "", githubLink: "https://github.com/jdelvalle12/notepad", link: "https://notetaken.herokuapp.com/" },
+    { image: Winery, name: "The Valley Winery", description: "", githubLink: "https://github.com/jdelvalle12/thevalleywinery", link: "https://jdelvalle12.github.io/thevalleywinery/" }
   ];
 
   const settings = {
@@ -45,10 +45,16 @@ const Carousel = () => {
           <div className="project-card">
             <Image src={project.image} alt={`Slide ${index + 1}`} width={600} height={400}/>
             <div className="project-card-overlay">
-              <h3>
-                <a href={project.link}>{project.name}</a>
-              </h3>
+              <a href={project.link} className="project-card-image-link">
+                <h3>{project.name}</h3>
+              </a>
             </div>
+          </div>
+          <div className="project-card-details">
+            <p>{project.description}</p>
+          </div>
+          <div className="project-card-links">
+            <a href={project.githubLink}>GitHub</a>
           </div>
         </div>
       ))}
