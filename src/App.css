@@ -347,6 +347,20 @@
   text-decoration: underline; /* add underline effect on hover */
 }
 
+.project-card-icons {
+  position: relative;
+  margin-top: -5rem;
+}
+
+.project-card-links {
+  position: absolute;
+  margin-top: 1rem;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: blue;
+}
+
 .ez {
   color:blue;
 }
