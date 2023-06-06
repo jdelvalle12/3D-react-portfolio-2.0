@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiMongodb } from 'react-icons/di';
+import { DiMongodb, DiMysql, DiJqueryLogo } from 'react-icons/di';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
   faHtml5, 
@@ -31,8 +31,7 @@ export default function Resume() {
       <div className='resume-card'>
         <h1 className='resume-title'>Resume</h1>
         <p>
-          A Full Stack Developer with an array of tech skills from the front end to back end such as Express.js, MySQL, GraphSQL,
-          in addition to the tech skills below. A detail-oriented hardworking innovative problem-solver who is passionate about
+          A Full Stack Developer with an array of tech skills from the front end to back end. A detail-oriented hardworking innovative problem-solver who is passionate about
           developing apps with a focus on design and development. Strengths in critical thinking, analytical, creativity, teamwork,
           organizational & time management skills. Go ahead and download my resume.
         </p>
@@ -48,6 +47,7 @@ export default function Resume() {
           <FontAwesomeIcon icon={faGithub} /> {/* GitHub */}
           <FontAwesomeIcon icon={faNodeJs} /> {/* Node.js */}
           <FontAwesomeIcon icon={faBootstrap} /> {/* Bootstrap */}
+          <DiMongodb /> <DiMysql /> <DiJqueryLogo /> Express GraphQL Tailwind
         </ul>
         </div>        
       </div>

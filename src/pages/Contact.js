@@ -24,12 +24,12 @@ export default function Contact() {
         <h1 className='contact-title'>Contact</h1>
         <div className="design-inquiries">
           <h3 className='contact-header'>Design Inquiries:</h3>
-            <p> Do you have a question or comment? Please send your inquiry to the email address below and also provide following:</p>
+            <p> Do you have a question or comment? Click on the button below and provide the following:</p>
               <ul>
                 <li>Name</li>
                 <li>Email</li>
                 <li>Nature of your inquiry</li>
-                <li>Email: <a href="mailto:jdelvalle88@live.com">jdelvalle88@live.com</a></li>
+                <li>Email to: <button onClick={() => window.location.href = 'mailto:jdelvalle88@live.com'}>jdelvalle88@live.com</button></li>
               </ul>
           {/* <form onSubmit={sendEmail}> 
             <label className="text-right" htmlFor="name">Name:</label>

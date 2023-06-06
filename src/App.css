@@ -330,6 +330,11 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   background: linear-gradient(to bottom, rgb(5, 5, 41), rgb(61, 67, 102));
+  width: 35rem;
+  height: 18rem;
+  margin-left: 11rem;
+  /* margin-bottom: 6rem; */
+  padding: 0 2rem;
 }
 
 .project-card-overlay h3 {
@@ -350,15 +355,34 @@
 .project-card-icons {
   position: relative;
   margin-top: -5rem;
+  margin-left: 11rem;
+  /* margin-bottom: 8rem; */
+  padding: 0 1.5rem;
 }
 
-.project-card-links {
-  position: absolute;
-  margin-top: 1rem;
-  color: black;
+.project-card-links button {
+  position: relative;
+  margin-top: -5rem;
+  margin-left: 11rem;
+  /* margin-bottom: 2rem; */
+  color: whitesmoke;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background: blue;
+  background-color: #007bff;
+  font-size: 1rem;
+}
+
+.project-card-details h3{
+  position: relative;
+  /* margin-top: -10rem; */
+  margin-left: 11rem;
+  padding: 0 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: green;
+  font-size: 1rem;
+  color: whitesmoke;
+  width: 5rem;
 }
 
 .ez {
@@ -413,7 +437,7 @@
 }
 
 .resume-card ul {
-  font-size: 4rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   padding: 0;
   text-align: center;
