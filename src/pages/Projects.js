@@ -68,8 +68,11 @@ const Carousel = () => {
           <div className="project-card-details">
               <h3>{project.category}</h3>
             <p>{project.description}</p>
+          <div className="project-card-links">
+            <button onClick={() => handleButtonClick(project.githubLink)}>GitHub</button>
+          </div>
             <div className="project-card-icons">
-              <h5>Technologies:</h5>
+              <h5>Technologies</h5>
                   {project.technologies.map((technology, i) => (
                     <span key={i} className="technology-icon">
                       {technology}
@@ -77,11 +80,6 @@ const Carousel = () => {
                   ))}
                   <span className="additional-text"></span>
                 </div>
-          <div className="project-card-links">
-          <button onClick={() => handleButtonClick(project.githubLink)}>
-              GitHub
-            </button>
-          </div>
           </div>
         </div>
       ))}
