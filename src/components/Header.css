@@ -9,39 +9,56 @@
     line-height: 50px;
     color: whitesmoke;
     background-color: black;
+    text-decoration: none;
     }
 
-    .logo-relative:hover {
-        color: limegreen;
-        }
-        
-    .logo-relative {
-      position: relative;
-      color: rgb(190, 187, 187);
-      font-size: 2rem;
-      text-decoration: none;
-    }
-    
-    .logo-relative::before,
-    .logo-relative::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: -1;
-    }
-    
-    .logo-relative::before {
-      /* background-color: #0BC5EA; Replace with desired color */
-      animation: glitch-1 2s infinite;
-    }
-    
-    .logo-relative-relative::after {
-      animation: glitch-2 3s infinite;
-    }
+.header-container .about-me {
+    text-decoration: none;
+  }
+
+.header-container .projects {
+  text-decoration: none;
+}
+
+.header-container .contact {
+  text-decoration: none;
+}
+
+.header-container .resume {
+  text-decoration: none;
+}
+
+.header-container .logo-relative:hover {
+      color: limegreen;
+      }
+  
+.header-container .logo-relative {
+        position: relative;
+        color: whitesmoke;
+        font-size: 2rem;
+        text-decoration: none;
+      }
       
+.header-container .logo-relative::before,
+      .logo-relative::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      
+.header-container .logo-relative::before {
+        /* background-color: #0BC5EA; Replace with desired color */
+        animation: glitch-1 2s infinite;
+      }
+      
+.header-container .logo-relative::after {
+        
+        animation: glitch-2 3s infinite;
+      }      
        @keyframes glitch-anim-1 {
         0% {
           transform: translate(0);

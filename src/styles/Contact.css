@@ -84,6 +84,9 @@
   margin-left: 1rem;
   background-color: #007bff;
   color:aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 /* .text-right-message {

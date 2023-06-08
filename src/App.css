@@ -376,29 +376,28 @@
 
 .project-card-icons {
   position: relative;
-  margin-top: -22rem;
-  margin-right: 15rem;
+  margin-top: -20rem;
+  margin-right: 13rem;
   /* margin-bottom: 8rem; */
   padding: 0 1.5rem;
   font-size: 2rem;
 }
 
-.project-card-links button {
-  position: relative;
+.project-card-button button {
+  /* margin-top: -18rem; */
   margin-bottom: 1rem;
-  margin-left: 17rem;
+  margin-right: 15rem;
   color: whitesmoke;
-  border: 1px solid #ccc;
+  padding: 0.5rem 0.5rem;
+  border: none;
   border-radius: 5px;
   background-color: #007bff;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
   cursor: pointer;
 }
 
-.project-card-links button:hover {
-  /* Change styles on hover */
-  background-color: #0056b3; /* Change background color */
-} 
+
 
 .project-card-details h3{
   position: relative;
@@ -444,7 +443,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 50%;
+  width: 60%;
   margin: 4rem auto;
   color: white;
 }
@@ -541,6 +540,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 10px; /* Add margin as needed */
+ 
 }
 
 .icon {
@@ -553,9 +553,9 @@
   width: 10px; /* Add spacing between the icons as needed */
 }
 
-.contact-info {
+/* .contact-info {
   margin-top: 1rem;
-}
+} */
 
 /*Header*/
 
@@ -568,20 +568,37 @@
   line-height: 50px;
   color: whitesmoke;
   background-color: black;
+  text-decoration: none;
   }
 
-  .logo-relative:hover {
+.header-container .about-me {
+  text-decoration: none;
+}
+
+.header-container .projects {
+  text-decoration: none;
+}
+
+.header-container .contact {
+  text-decoration: none;
+}
+
+.header-container .resume {
+  text-decoration: none;
+}
+
+.header-container .logo-relative:hover {
       color: limegreen;
       }
   
-       .logo-relative {
+.header-container .logo-relative {
         position: relative;
         color: whitesmoke;
         font-size: 2rem;
         text-decoration: none;
       }
       
-      .logo-relative::before,
+.header-container .logo-relative::before,
       .logo-relative::after {
         content: '';
         position: absolute;
@@ -592,12 +609,12 @@
         z-index: -1;
       }
       
-      .logo-relative::before {
+.header-container .logo-relative::before {
         /* background-color: #0BC5EA; Replace with desired color */
         animation: glitch-1 2s infinite;
       }
       
-      .logo-relative::after {
+.header-container .logo-relative::after {
         
         animation: glitch-2 3s infinite;
       }

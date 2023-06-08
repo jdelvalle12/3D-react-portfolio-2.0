@@ -16,7 +16,7 @@ export default function About() {
           ...I am a full stack developer based in Orlando with experience in HTML5, variety of CSS frameworks,
           JavaScript, jQuery, and used Web, Third party & Server-side APIs on the front end 
           development. In addition, on the back end development, I have experience in MySQL, Node.js, 
-          Express.js, GraphQL & MongoDB, plus REACT. I have an appetite for continuous learning, collaboration, 
+          Express.js, GraphQL & MongoDB, plus REACT & RESTful APIs. I have an appetite for continuous learning, collaboration, 
           and problem-solving, and I plan to create and maintain websites while also developing apps. Aside from 
           programming, I'm originally from NYC, I like listening to a variety of music, play videogames and travel 
           around the world. 

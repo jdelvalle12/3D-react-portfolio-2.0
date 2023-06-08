@@ -22,7 +22,7 @@ import { DiMongodb, DiBootstrap } from 'react-icons/di';
 const Carousel = () => {
   const projects = [
     { image: Flick, name: "Flick Tracker", description: "Flick Tracker is looking to create a new way to engage with fellow movie lovers, through a user database system. Each user will have a profile where you can view their followed users, following, watched movies, etc. We want to show you analytics based off of the information you provide, to help refine and diversify your taste. We will allow people to post reviews on movies they have seen, in order for their followers to potentially add new items into their watchlist that wouldn't be curated from their own analytics.", 
-      technologies: [<FaNodeJs />, <FaHtml5 />, <FaCss3 />, <FaJs />], category: "Full Stack", githubLink: "https://github.com/NicholasTozzi/flick-tracker", link: "https://flick-tracker.herokuapp.com/" },
+      technologies: [<FaNodeJs />, <FaHtml5 />, <FaCss3 />, <FaJs />, "Express"], category: "Full Stack", githubLink: "https://github.com/NicholasTozzi/flick-tracker", link: "https://flick-tracker.herokuapp.com/" },
     // { image: manifesto, name: "Gambling Manifesto", link: "https://stickkman.github.io/gamblingManifesto-Proj01/" },
     { image: SEO, name: "Horiseon", description: "This project is a visually stunning representation of modern web design principles, showcasing the perfect blend of aesthetics and functionality. Explore the beautifully crafted user interface, seamless navigation, and eye-catching visual elements that make a true visual delight. Immerse yourself in the world of elegant design and get inspired by the possibilities of web development.", 
       technologies: [<FaHtml5 />, <FaCss3 />] , category: "Front-end", githubLink: "https://github.com/jdelvalle12/horiseon-webpage", link: "https://jdelvalle12.github.io/horiseon-webpage/" },
@@ -68,7 +68,7 @@ const Carousel = () => {
           <div className="project-card-details">
               <h3>{project.category}</h3>
             <p>{project.description}</p>
-          <div className="project-card-links">
+          <div className="project-card-button">
             <button onClick={() => handleButtonClick(project.githubLink)}>GitHub</button>
           </div>
             <div className="project-card-icons">

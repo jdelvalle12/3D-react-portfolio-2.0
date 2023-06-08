@@ -15,10 +15,10 @@ const Header = () => {
       </div>
       </Link>
       <nav className="navi">       
-          <a className='about-me'  href="/about">About</a> 
-          <a className='projects' href="/projects">Projects</a>
-          <a className='contact' href="/contact">Contact</a>
-          <a className='resume' href="/resume">Resume</a>
+          <Link className='about-me'  to="/about">About</Link> 
+          <Link className='projects' to="/projects">Projects</Link>
+          <Link className='contact' to="/contact">Contact</Link>
+          <Link className='resume' to="/resume">Resume</Link>
       </nav>
     </div>
   </header>
