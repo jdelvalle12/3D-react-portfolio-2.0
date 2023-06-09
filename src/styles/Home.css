@@ -2,13 +2,13 @@
 
 .home-container {
     
-    width: 120%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-size: 100% 100%;
+    background-size: 100% 120%;
     background-repeat: no-repeat;
     color: black;
     padding-bottom: 10rem; /* adjust the value to your desired amount */
