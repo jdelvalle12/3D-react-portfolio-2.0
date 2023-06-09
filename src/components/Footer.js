@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css';
 import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope } from 'react-icons/fa'; // Import the GitHub and LinkedIn icons from the font icon library
-// import { DiEmail } from 'react-icons/di';
 import '../App.css';
 
 const Footer = () => {

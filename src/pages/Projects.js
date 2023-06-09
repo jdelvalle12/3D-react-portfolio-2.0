@@ -26,7 +26,7 @@ const Carousel = () => {
     // { image: manifesto, name: "Gambling Manifesto", link: "https://stickkman.github.io/gamblingManifesto-Proj01/" },
     { image: SEO, name: "Horiseon", description: "This project is a visually stunning representation of modern web design principles, showcasing the perfect blend of aesthetics and functionality. Explore the beautifully crafted user interface, seamless navigation, and eye-catching visual elements that make a true visual delight. Immerse yourself in the world of elegant design and get inspired by the possibilities of web development.", 
       technologies: [<FaHtml5 />, <FaCss3 />] , category: "Front-end", githubLink: "https://github.com/jdelvalle12/horiseon-webpage", link: "https://jdelvalle12.github.io/horiseon-webpage/" },
-    { image: Journeez, name: "journeEZ", description: "Many people travel to many parts of the world everyday, and some of them are first time solo travelers, but they get overwhelmed with all the information that is out there, about where to go, where to stay, where to eat, what to do, etc. This app aims to ease those nerves for first time travelers in the most simplistic way by providing information and tips as well as share their experience with other solo travelers and a way to document their experiences.", 
+    { image: Journeez, name: "JourneEZ", description: "Many people travel to many parts of the world everyday, and some of them are first time solo travelers, but they get overwhelmed with all the information that is out there, about where to go, where to stay, where to eat, what to do, etc. This app aims to ease those nerves for first time travelers in the most simplistic way by providing information and tips as well as share their experience with other solo travelers and a way to document their experiences.", 
       technologies: [<FaReact />, <FaNodeJs />, <FaHtml5 />, <FaCss3 />, <FaJs />, <DiBootstrap />, "GraphQL"] , category: "Full Stack", githubLink: "https://github.com/jdelvalle12/journeeztrip", link: "https://www.journeeztrip.com/" },
     { image: Weather, name: "Weather Forecast", description: "Stay prepared for any weather condition with this intuitive app. Get real-time weather updates and accurate forecasts for your location and other areas of interest. Plan your activities, trips, and outdoor adventures with confidence, knowing you have reliable weather information at your fingertips. Stay informed and make the most of your day with the Weather Forecast app", 
       technologies: [<FaHtml5 />, <FaCss3 />, <FaJs />] , category: "Front-end", githubLink: "https://github.com/jdelvalle12/5-day-national-weather-forecast", link: "https://jdelvalle12.github.io/5-day-national-weather-forecast/" },
@@ -67,6 +67,7 @@ const Carousel = () => {
           </div>
           <div className="project-card-details">
               <h3>{project.category}</h3>
+              <h4>{project.name}</h4>
             <p>{project.description}</p>
           <div className="project-card-button">
             <button onClick={() => handleButtonClick(project.githubLink)}>GitHub</button>

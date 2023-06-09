@@ -357,7 +357,17 @@
   font-size: 1rem;
 }
 
-
+.project-card-details h4 {
+  font-size: 1rem;
+  text-align: center;
+  color: whitesmoke;
+  margin-right: 15rem;
+  margin-bottom: 1rem;
+  position: relative;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(to bottom, rgb(5, 5, 41), rgb(61, 67, 102));
+}
 
 .project-card-overlay h3 {
   color: #fff; /* set desired link text color */
