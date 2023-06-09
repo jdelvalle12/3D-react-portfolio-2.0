@@ -93,6 +93,9 @@ const Projects = () => {
     <div>
       <video src={Fireworks} autoPlay loop muted className="projects-background-video"></video>      
       <div>
+        <div className='title'>
+          <h2>Projects</h2>
+        </div>
         <div className="carousel-container relative w-full items-center ">
           <Carousel />
         </div>
