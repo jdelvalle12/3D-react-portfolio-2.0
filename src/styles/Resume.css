@@ -13,7 +13,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 60%;
     margin: 4rem auto;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     color: white;
     /* max-height: 40rem; */
   }

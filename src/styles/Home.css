@@ -1,28 +1,29 @@
 /* Home */
 
-.home-container {
+/* .home-container .section {
     
-    max-width: 100%;
+    max-width: 180%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-size: 100% 120%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    color: black;
-    padding-bottom: 10rem; /* adjust the value to your desired amount */
+    color: white;
+    padding-bottom: 10rem; 
     padding-right: 0;
-   }
+   } */
 
-  .background-video {
+  .home-container .background-video {
     position: absolute;
     top: 0;
     left: 0;
-    width: 115%;
+    max-width: 200%;
     height: 100%;
     object-fit: fill;
-    margin-right: 0;
+    overflow-x: hidden;
+    
   }
 
   .home-content h1{

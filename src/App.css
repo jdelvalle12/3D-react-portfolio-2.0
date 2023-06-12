@@ -2,7 +2,7 @@
   position: relative;
   font-family: "Orbitron","Quantico", sans-serif;
   font-size: 1.7rem;
-  background: linear-gradient(to bottom, #000000, #d3cfcf);
+  background: black;
   /* color:rgb(109, 108, 108); */
   margin:0;
   padding:0;  
@@ -42,14 +42,14 @@
     max-width: 180%;
     height: auto;
     overflow-y: auto;
-    /* overflow-x: auto; */
+    overflow-x: hidden;
     font-size: 12px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4;
@@ -91,7 +91,7 @@
 }
 
 /*Home*/
-.home-container {
+.home-container section {
     
   max-width: 100%;
   height: auto;
@@ -99,11 +99,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-size: 100% 120%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   color: white;
   padding-bottom: 10rem; /* adjust the value to your desired amount */
   padding-right: 0;
+  margin-left: 15rem;
  }
 
 /* .background-video {
