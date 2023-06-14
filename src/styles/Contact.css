@@ -4,15 +4,16 @@
   position: relative;
   z-index: 1;
   /* margin-bottom: 0rem; */
-  padding: 20px 10px 20px 10px;
+  padding: 20px 10px 250px 10px;
   background: linear-gradient(to bottom, rgb(5, 5, 41), rgb(61, 67, 102));
   font-size: 20px;
   /* Add styles for the box */
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 68%;
- margin: 4rem auto;
+  width: 70%;
+  margin: 2rem auto;
+  margin-bottom: 1rem;
   color: white;
 }
 
@@ -65,23 +66,24 @@
 .design-inquiries p {
   font-size: 1.2rem;
   margin-left: 2.7rem;
-  width: 70%;
+  width: 73%;
 }
 
 .design-inquiries ul {
-  margin-top: -5rem;
+  margin-top: 5rem;
+  /* margin-right: 2rem; */
 }
 
 .design-inquiries li {
   font-size: 1rem;
   margin-top: 1rem;
-  margin-left: 4rem;
+  margin-left: 1rem;
 }
 
 .design-inquiries li button {
   font-size: 1rem;
   margin-top: 1rem;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   background-color: #007bff;
   color:aliceblue;
   font-weight: bold;
