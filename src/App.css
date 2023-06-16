@@ -1,11 +1,12 @@
 body {
   position: relative;
   font-family: "Orbitron", "Quantico", sans-serif;
-  font-size: 2em;
+  /* font-size: 2rem; */
   background: linear-gradient(to bottom, #000000, #333333);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  width: 100%;
   height: auto;
   overflow-y: auto;
   overflow-x: hidden;
@@ -15,12 +16,8 @@ body {
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 768px) {
   body {
-    max-width: 100%;
-    font-size: 1.6em;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-family: "Orbitron", "Quantico", sans-serif;
     color: white;
     box-sizing: border-box;
     background-color: black;
@@ -29,13 +26,8 @@ body {
     background-position: center center;
   }
 
-  .nav-tabs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #333;
-    padding: 20px;
-    width: 100%;
+  .navbar .nav-tabs {
+    display: none;
   }
 
   .nav-link {
@@ -44,8 +36,21 @@ body {
     margin: 10px 0;
   }
 
-  .nav-link.active {
-    font-weight: bold;
+  .navbar .nav-tabs.active {
+    display: flex; /* Show the menu items when active */
+    flex-direction: column; /* Adjust the layout for mobile */
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+  }
+
+  .navbar .nav-tabs.active li {
+    margin: 10px 0; /* Adjust the spacing between menu items */
+  }
+
+  .navbar .nav-tabs.active li a {
+    color: white;
+    text-decoration: none;
   }
 }
 
@@ -65,58 +70,45 @@ body {
 
 /*Home*/
 .home-container {
-  max-width: 100%;
-  height: auto;
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  padding-bottom: 10rem;
-  padding-left: 1rem;
-  margin-left: 15rem;
-}
-
-.home-content {
-  position: relative;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-right: 26rem;
-  color: white;
+ 
 }
 
 .home-container .background-video {
   position: absolute;
   top: 0;
   left: 0;
-  max-width: 100%;
-  height: 80%;
+  width: 100%; 
+  height: 50vh; 
   object-fit: cover;
   background-size: contain;
 }
 
 .home-content h1 {
-  position: relative;
   font-size: 2.5rem;
   font-weight: bold;
-  margin-left: 5rem;
-  color: aliceblue;
-  margin-top: 18rem;
-  width: 17rem;
+  color: rgb(146, 192, 235);
+  margin-top: 11.5rem; 
+  max-width: 28rem; 
+  text-align: center; 
+  margin-left: 3rem;
 }
 
 .home-content p {
-  position: absolute;
   font-size: 1.3rem;
   line-height: 2rem;
   text-align: justify;
   color: white;
-  padding-bottom: 1rem;
-  margin-left: 5rem;
-  margin-top: 1.5rem;
-  width: 17rem;
+  padding-top: 4.5rem;
+  max-width: 18rem; 
+  text-align: center; 
+  margin-left: 8rem;
 }
 
 /*About me*/
@@ -188,70 +180,46 @@ body {
 
 .nav-tabs {
   display: flex;
+  flex-direction: column; 
+  align-items: center;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.projects {
+.projects,
+.contact,
+.about-me,
+.resume {
   color: whitesmoke;
   padding-right: 0;
-  margin: 0 0.8rem;
-  font-family: "Orbitron","Quantico", sans-serif;
+  margin: 0.5rem 0.3rem; /* Adjust the margin for better spacing */
+  font-family: "Orbitron", "Quantico", sans-serif;
   font-size: 1.2rem;
   line-height: 1.9;
   list-style-type: none;
+  text-align: center; /* Center the text for mobile */
 }
 
 .projects:hover {
   color: rgb(245, 71, 40);
 }
 
-.contact {
-  color: whitesmoke;
-  padding-right: 0;
-  margin: 0 0.8rem;
-  font-family: "Orbitron","Quantico", sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.9;
-  list-style-type: none;
-}
-
 .contact:hover {
   color: magenta;
-}
-
-.about-me {
-  color: whitesmoke;
-  padding-right: 0;
-  margin: 0 0.9rem;
-  font-family: "Orbitron","Quantico", sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.9;
-  list-style-type: none;
 }
 
 .about-me:hover {
   color: cyan;
 }
 
-.resume {
-  color: whitesmoke;
-  padding-right: 0;
-  margin: 0 0.9rem;
-  font-family: "Orbitron","Quantico", sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.9;
-  list-style-type: none;
-}
-
 .resume:hover {
-  color: rgb(231, 235, 12)
+  color: rgb(231, 235, 12);
 }
 
 
 /* Hamburger Menu Styling */
-.navbar-toggler {
+/* .navbar-toggler {
   border: none;
   background-color: transparent;
   outline: none;
@@ -259,20 +227,20 @@ body {
 }
 
 .navbar-toggler-icon {
-  background-color: #fff; /* Customize the hamburger icon color */
+  background-color: #fff; 
 }
 
 .navbar-collapse {
-  background-color: #333; /* Customize the collapsed menu background color */
+  background-color: #333; 
 }
 
 .nav-link {
-  color: #fff !important; /* Customize the link color */
+  color: #fff !important; 
 }
 
 .nav-link:hover {
-  color: #f00 !important; /* Customize the link hover color */
-}
+  color: #f00 !important; 
+} */
 
 /*Projects Section*/
 
@@ -631,6 +599,7 @@ body {
   color: whitesmoke;
   background-color: black;
   text-decoration: none;
+  font-family: "Orbitron","Quantico", sans-serif;
   }
 
 .header-container .about-me {

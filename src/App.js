@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from "./components/Header";
 // import Navbar from "./components/Navbar";
@@ -13,15 +13,26 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav } from 'react-bootstrap';
 
+
+
 function App() {
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+
 return (
+
   <Router>
       <div>
         <Header>
-        <Navbar expand="md" bg="dark" variant="dark" fixed="top">
+        <Navbar bg="dark" variant="dark" expand="md" collapseOnSelect>
           <Navbar.Brand href="/">Logo</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbar-nav" />
-          <Navbar.Collapse id="navbar-nav">
+          <Navbar.Toggle aria-controls="navbar-nav" onClick={toggleMenu} />
+          <Navbar.Collapse id="navbar-nav" className={isMenuOpen ? 'show' : ''}>
             <Nav className="ml-auto">
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/projects">Projects</Nav.Link>
@@ -29,7 +40,7 @@ return (
               <Nav.Link href="/resume">Resume</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Navbar>
+          </Navbar>
         </Header>
         <Routes>
           <Route path="/" element={<Home />} />
