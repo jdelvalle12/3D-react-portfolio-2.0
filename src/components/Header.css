@@ -51,11 +51,11 @@
       }
       
 .header-container .logo-relative::before {
-        /* background-color: #0BC5EA; Replace with desired color */
+     
         animation: glitch-1 2s infinite;
       }
       
-.header-container .logo-relative::after {
+/* .header-container .logo-relative::after {
         
         animation: glitch-2 3s infinite;
       }      
@@ -473,6 +473,6 @@ transform: translate(0);
 opacity: 1;
 clip: rect(0, 900px, 100px, 0);
 }
-}
+} */
 
 
