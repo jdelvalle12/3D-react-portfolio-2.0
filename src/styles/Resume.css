@@ -3,7 +3,7 @@
 .resume-card {
     position: relative;
     z-index: 1;
-    /* margin-bottom: 0rem; */
+    /* margin-bottom: 2rem; */
     padding: 0;
     background: linear-gradient(to bottom, rgb(5, 5, 41), rgb(61, 67, 102));
     font-size: 20px;
@@ -11,9 +11,9 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 60%;
+    width: 65%;
     margin: 4rem auto;
-    /* margin-bottom: 1rem; */
+    margin-bottom: 4rem;
     color: white;
     /* max-height: 40rem; */
   }
@@ -24,6 +24,7 @@
     left: 0;
     width: 115%;
     height: 100%;
+    /* margin-bottom: 2rem; */
     object-fit: cover;
     z-index: -1; /* Set a negative z-index to place the video behind the card */
   }
@@ -68,6 +69,7 @@
   .resume-download-button {
     margin-bottom: 1rem;
     margin-left: 1rem;
+    padding: 1rem;
     }
 
     /* .resume-download-button button {

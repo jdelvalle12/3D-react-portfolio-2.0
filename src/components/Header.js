@@ -5,7 +5,7 @@ import '../App.css';
 
 const Header = () => {
   return (
-    <header className="bg-primary text-light mb-4 py-3 flex-row align-center">
+    <header className="text-light mb-4 py-2 flex-row ">
     <div className="header-container flex-row justify-space-between-lg justify-center align-center">
       <Link className="text-light" to="/">
       <div className="logo-relative">
